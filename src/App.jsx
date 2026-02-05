@@ -35,7 +35,7 @@ function App() {
       <div class="grid justify-center">
         <section class="bg-white rounded-2xl shadow-xl/30">
         <div class="posts grid">
-          <div class="post w-xl p-3">
+          <div class="post w-auto max-w-xl p-3">
             <img src={imagePost1} class="justify-center rounded-2xl"/>
             <h1 class="text-2xl">First post here</h1>
             <span class="text-[9px] align-text-top">8:16 am 02/05/2026</span>
