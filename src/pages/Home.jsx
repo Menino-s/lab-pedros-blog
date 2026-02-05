@@ -1,5 +1,6 @@
 import imagePost1 from '../assets/imagesPosts/blog-img.jpg'
 import imagePost2 from '../assets/imagesPosts/blog-img-2.png'
+import imagePost3 from '../assets/imagesPosts/hellokitty.webp'
 import Headr from '../componetes/header'
 
 function Home() {
@@ -10,6 +11,12 @@ function Home() {
         <div class="grid justify-center">
           <section class="posts">
             <div class="grid gap-3">
+              <div class="post w-auto max-w-xl p-3 bg-white rounded-2xl shadow-xl/30 gap-6 dark:bg-[#181a1b] dark:text-white">
+                <img src={imagePost3} class="justify-center rounded-2xl"/>
+                <h1 class="text-2xl">I'm excited for the Hello Kitty skins on OW2</h1>
+                <span class="text-[9px] align-text-top">16:29 pm 02/05/2026</span>
+                <p>I really liked the skin of Juno and Windowaker, I don't now what I will take. But the Juno skin it's soo cutee :3 I think to take the Juno skin!</p>
+              </div>
               <div class="post w-auto max-w-xl p-3 bg-white rounded-2xl shadow-xl/30 gap-6 dark:bg-[#181a1b] dark:text-white">
                 <img src={imagePost2} class="justify-center rounded-2xl"/>
                 <h1 class="text-2xl">We are in Vercel!</h1>
