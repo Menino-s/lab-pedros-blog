@@ -1,3 +1,5 @@
+import React from 'react'
+import ReactPlayer from 'react-player'
 import imagePost1 from '../assets/imagesPosts/blog-img.jpg'
 import imagePost2 from '../assets/imagesPosts/blog-img-2.png'
 import imagePost3 from '../assets/imagesPosts/hellokitty.webp'
@@ -11,6 +13,12 @@ function Home() {
         <div class="grid justify-center">
           <section class="posts">
             <div class="grid gap-3">
+              <div class="post w-auto max-w-xl p-3 bg-white rounded-2xl shadow-xl/30 gap-6 dark:bg-[#181a1b] dark:text-white">
+                <ReactPlayer src="https://youtu.be/HVKY_n_A_5Y" style={{width: "100%", height: "15rem", "--controls": "none",}}/>
+                <h1 class="text-2xl">The Beautiful play with my friends</h1>
+                <span class="text-[9px] align-text-top">14:23 pm 02/06/2026</span>
+                <p>Yesterday's play was magnificent, my friends and I were playing (Marcelo even recorded it, thank you Marcelo!). I was playing support with Wuyang and it was a fantastic play.</p>
+              </div>
               <div class="post w-auto max-w-xl p-3 bg-white rounded-2xl shadow-xl/30 gap-6 dark:bg-[#181a1b] dark:text-white">
                 <img src={imagePost3} class="justify-center rounded-2xl"/>
                 <h1 class="text-2xl">I'm excited for the Hello Kitty skins on OW2</h1>
