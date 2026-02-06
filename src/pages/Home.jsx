@@ -1,4 +1,3 @@
-import React from 'react'
 import ReactPlayer from 'react-player'
 import imagePost1 from '../assets/imagesPosts/blog-img.jpg'
 import imagePost2 from '../assets/imagesPosts/blog-img-2.png'

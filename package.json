@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.18",
+    "react-player": "^3.4.0",
     "react-router-dom": "^7.13.0",
     "tailwindcss": "^4.1.18",
     "video-react": "^0.16.0"
