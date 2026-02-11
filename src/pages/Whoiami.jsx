@@ -5,10 +5,9 @@ import lovegf from "../assets/lovemygf.gif"
 
 function WhoIam() {
     return (
-    <body class="bg-green-600">
-        <div>
+        <div class="bg-green-600 h-cover">
             <Headr />
-            <div class="grid justify-center">
+            <div class="grid justify-center p-50">
                 <div class="grid grid-cols-2 w-auto max-w-xl p-3 bg-white rounded-2xl shadow-xl/30 gap-6 dark:bg-[#181a1b] dark:text-white">
                     <div class="grid items-center">
                         <img src={profile} class="rounded-[24rem] w-7xl" />
@@ -24,8 +23,6 @@ function WhoIam() {
                 </div>
             </div>
         </div>
-
-    </body>
     )
 }
 

@@ -13,6 +13,12 @@ function Home() {
           <section class="posts">
             <div class="grid gap-3">
               <div class="post w-auto max-w-xl p-3 bg-white rounded-2xl shadow-xl/30 gap-6 dark:bg-[#181a1b] dark:text-white">
+                <ReactPlayer src="https://youtu.be/JETYDA-sI0c" style={{width: "100%", height: "15rem", "--controls": "none",}}/>
+                <h1 class="text-2xl">Play of the Game with the new support</h1>
+                <span class="text-[9px] align-text-top">16:02 pm 02/11/2026</span>
+                <p>Yesterday's I played it's magnificent play, I had the new Jetpack Cat support, I really liked it, but you need to know how to position yourself very well as a support (which I already know LMAO).</p>
+              </div>
+              <div class="post w-auto max-w-xl p-3 bg-white rounded-2xl shadow-xl/30 gap-6 dark:bg-[#181a1b] dark:text-white">
                 <ReactPlayer src="https://youtu.be/HVKY_n_A_5Y" style={{width: "100%", height: "15rem", "--controls": "none",}}/>
                 <h1 class="text-2xl">The Beautiful play with my friends</h1>
                 <span class="text-[9px] align-text-top">14:23 pm 02/06/2026</span>
