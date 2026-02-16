@@ -1,0 +1,5 @@
+[
+    {"title": "Overwatch", "img": "./games/overwatch.png", "year": "2016"},
+    {"title": "Castlevania: SOTN", "img": "./games/castlevania.png", "year": "1997"},
+    {"title": "ULTRAKILL", "img": "./games/ultrakill.jpg", "year": "2018"}
+]
