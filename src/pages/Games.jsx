@@ -8,7 +8,7 @@ function Games() {
         <Headr />
         <div class="grid justify-center">
           <section class="posts">
-            <div class="grid lg:grid-cols-3 sm:grid-cols-none gap-3 p-3 lg:pb-68 sm:pb-0">
+            <div class="grid lg:grid-cols-3 sm:grid-cols-none gap-3 p-3">
               {
                 games.map((gamees) => (
                 <div class="post w-auto max-w-xl p-3 bg-white rounded-2xl shadow-xl/30 gap-6 dark:bg-[#181a1b] dark:text-white">
