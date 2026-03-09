@@ -1,5 +1,20 @@
 [
     {"title": "Overwatch", "img": "./games/overwatch.png", "year": "2016"},
     {"title": "Castlevania: SOTN", "img": "./games/castlevania.png", "year": "1997"},
-    {"title": "ULTRAKILL", "img": "./games/ultrakill.jpg", "year": "2018"}
+    {"title": "ULTRAKILL", "img": "./games/ultrakill.jpg", "year": "2018"},
+    {"title": "The Binding of Isaac", "img": "./games/tboi.png", "year": "2015"},
+    {"title": "Elden Ring", "img": "./games/elden.png", "year": "2022"},
+    {"title": "Hunt: Showdown", "img": "./games/hunt.png", "year": "2019"},
+    {"title": "Sonic Mania", "img": "./games/sonic.png", "year": "2017"},
+    {"title": "Minecraft", "img": "./games/mine.png", "year": "2011"},
+    {"title": "Luanti", "img": "./games/luanti.png", "year": "2015"},
+    {"title": "Hytale", "img": "./games/hytale.png", "year": "2026"},
+    {"title": "SCJ", "img": "./games/scj.png", "year": "2021"},
+    {"title": "Momodora", "img": "./games/momo.png", "year": "2016"},
+    {"title": "Pokémon Violet", "img": "./games/poke.png", "year": "2022"},
+    {"title": "Pokémon White", "img": "./games/white.png", "year": "2010"},
+    {"title": "Pokémon Emerald", "img": "./games/emerald.png", "year": "2004"},
+    {"title": "Persona 3", "img": "./games/p3p.png", "year": "2009"},
+    {"title": "Portal", "img": "./games/portal.png", "year": "2007"},
+    {"title": "Portal 2", "img": "./games/portal2.png", "year": "2009"}
 ]

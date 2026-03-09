@@ -12,7 +12,7 @@ function Games() {
               {
                 games.map((gamees) => (
                 <div class="post w-auto max-w-xl p-3 bg-white rounded-2xl shadow-xl/30 gap-6 dark:bg-[#181a1b] dark:text-white">
-                    <img src={gamees.img} class="justify-center rounded-2xl sm:w-auto h-auto lg:w-2xs"/>
+                    <img src={gamees.img} class="justify-center rounded-2xl sm:w-auto h-auto lg:w-2xs border-2 border-white"/>
                   <div>
                     <h1 class="text-3xl font-snpro pt-3">{gamees.title}</h1>
                     <span class="text-md align-text-top font-snpro">{gamees.year}</span>
