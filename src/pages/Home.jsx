@@ -4,7 +4,7 @@ import Posts from '../posts/post.json'
 function Home() {
 
     return(
-      <div class="bg-green-600">
+      <div class="bg-green-600 cursor-[url('./assets/mouse1.png')],_pointer">
         <Headr />
         <div class="grid justify-center">
           <section class="posts">

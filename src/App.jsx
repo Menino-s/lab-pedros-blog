@@ -5,7 +5,6 @@ import Games from './pages/Games'
 import './App.css'
 
 function App() {
-
   return (
     <Router>
       <Routes>

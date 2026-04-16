@@ -5,3 +5,9 @@
 @theme {
     --font-snpro: "SN Pro", sans-serif;
 }
+
+html, body { 
+    cursor: pointer !important;
+    cursor: url('./assets/mouse1.png'), auto !important 
+}
+
