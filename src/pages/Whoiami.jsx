@@ -1,4 +1,4 @@
-import Headr from "../componetes/header"
+import Headr from "../components/header"
 import creuBrasil from "../assets/Brasil.gif"
 import profile from "../assets/profile.jpeg"
 import lovegf from "../assets/lovemygf.gif"

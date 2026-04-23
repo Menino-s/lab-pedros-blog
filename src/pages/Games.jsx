@@ -1,4 +1,4 @@
-import Headr from '../componetes/header'
+import Headr from '../components/header'
 import games from '../games/games.json'
 
 function Games() {
