@@ -2,6 +2,7 @@ import Headr from "../componetes/header"
 import creuBrasil from "../assets/Brasil.gif"
 import profile from "../assets/profile.jpeg"
 import lovegf from "../assets/lovemygf.gif"
+import profileBorder from "../assets/mischievous_kitties_hearts.png"
 
 function WhoIam() {
     return (
@@ -11,8 +12,9 @@ function WhoIam() {
                 <div class="whoiam">
                     <div class="grid pt-60 pb-73">
                         <div class="grid grid-cols-2 w-auto max-w-xl p-3 bg-white rounded-2xl shadow-xl/30 gap-6 dark:bg-[#181a1b] dark:text-white">
-                            <div class="grid items-center">
+                            <div class="relative">
                                 <img src={profile} class="rounded-[24rem] w-7xl" />
+                                <img src={profileBorder} class="absolute inset-0" />
                             </div>
                             <div>
                                 <h1 class="text-2xl">Hi, I am Pedro Menino</h1>
