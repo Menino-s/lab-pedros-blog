@@ -3,7 +3,8 @@
 @import "tailwindcss";
 
 @theme {
-    --font-snpro: "SN Pro", sans-serif;
+  --font-snpro: "SN Pro", sans-serif;
+  --breakpoint-xs: 20rem;
 }
 
 html, body { 

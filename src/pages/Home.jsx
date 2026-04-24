@@ -9,7 +9,7 @@ function Home() {
 
     return(
       <div class="relative bg-green-600 cursor-[url('./assets/mouse1.png')],_pointer">
-        {/* <Stickers /> */}
+        <Stickers />
         <Headr />
         <div class="grid justify-center z-10">
           <section class="posts">
@@ -26,7 +26,7 @@ function Home() {
                   <h1 class="text-2xl font-snpro">{posts.title}</h1>
                   <span class="text-[9px] align-text-top font-snpro">{posts.hour}</span>
                   <p>{posts.content}</p>
-                  {posts.link && <Link class="flex pt-24 justify-end" to={posts.link}>LinkZão BRABO</Link>}
+                  {posts.link && <Link class="flex pt-24 justify-end" to={posts.link}><img src={posts.linkimg} class="max-h-6 dark:invert" /></Link>}
               </div>
                 ))
               }
