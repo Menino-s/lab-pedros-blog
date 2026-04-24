@@ -13,7 +13,7 @@ function WhoIam() {
             <div class="grid justify-center">
                 <div class="whoiam">
                     <div class="grid pt-60 pb-73">
-                        <div class="grid grid-cols-2 w-auto max-w-xl p-6 bg-white rounded-2xl shadow-xl/30 gap-6 dark:bg-[#181a1b] dark:text-white">
+                        <div class="grid grid-cols-2 w-auto max-w-xl p-6 bg-white rounded-2xl shadow-xl/30 gap-6 inset-shadow-sm inset-shadow-white/40 dark:bg-[#181a1b] dark:text-white">
                             <div class="relative">
                                 <img src={profile} class="rounded-[24rem] w-7xl" />
                                 <img src={profileBorder} class="absolute inset-0" />
