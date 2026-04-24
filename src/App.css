@@ -11,3 +11,20 @@ html, body {
     cursor: url('./assets/mouse1.png'), auto !important 
 }
 
+@keyframes nyanfly {
+  0% {
+    transform: translateX(-1100px);
+  }
+  100% {
+    transform: translateX(100vw);
+  }
+}
+
+.nyancat-animate {
+  animation: nyanfly 40s infinite linear;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
