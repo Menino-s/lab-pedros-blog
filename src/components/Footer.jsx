@@ -1,7 +1,7 @@
 import madeReact from '../assets/madein.gif'
 
 
-export default function Headr() {
+export default function Footer() {
 
     return(
     <>

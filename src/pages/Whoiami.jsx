@@ -1,4 +1,6 @@
 import Headr from "../components/header"
+import Footer from '../components/Footer'
+import Stickers from '../components/Stickers'
 import creuBrasil from "../assets/Brasil.gif"
 import profile from "../assets/profile.jpeg"
 import lovegf from "../assets/lovemygf.gif"
@@ -11,7 +13,7 @@ function WhoIam() {
             <div class="grid justify-center">
                 <div class="whoiam">
                     <div class="grid pt-60 pb-73">
-                        <div class="grid grid-cols-2 w-auto max-w-xl p-3 bg-white rounded-2xl shadow-xl/30 gap-6 dark:bg-[#181a1b] dark:text-white">
+                        <div class="grid grid-cols-2 w-auto max-w-xl p-6 bg-white rounded-2xl shadow-xl/30 gap-6 dark:bg-[#181a1b] dark:text-white">
                             <div class="relative">
                                 <img src={profile} class="rounded-[24rem] w-7xl" />
                                 <img src={profileBorder} class="absolute inset-0" />
@@ -28,6 +30,7 @@ function WhoIam() {
                     </div>
                 </div>
             </div>
+            <Footer />
         </div>
     )
 }
