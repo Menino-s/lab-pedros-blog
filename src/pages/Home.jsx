@@ -22,8 +22,8 @@ function Home() {
           <div class="grid bg-amber-500 p-3 rounded-t-2xl gap-1 max-w-400 min-h-screen">
             <div class="grid gap-3">
               <div class="bg-white dark:bg-[#181a1b] inset-shadow-sm inset-shadow-white/40 rounded-t-2xl p-2">
-                <h1 class="text-white text-2xl text-center">This is my old internet website!</h1>
-                <p class="text-gray-200 text-md p-2 pt-0">Hi, this is my old internet blog, a little corner where I always try to make some posts or just stay. I'm not from the blogging era, but one day I stopped and thought, "Why can't I have my own blog?" Is it too old-fashioned for me? You bet it is, but I don't mind. I love that old internet aesthetic, so I've adopted it here :)</p>
+                <h1 class="dark:text-white text-black text-2xl text-center">This is my old internet website!</h1>
+                <p class="dark:text-gray-200 text-blakc text-md p-2 pt-0">Hi, this is my old internet blog, a little corner where I always try to make some posts or just stay. I'm not from the blogging era, but one day I stopped and thought, "Why can't I have my own blog?" Is it too old-fashioned for me? You bet it is, but I don't mind. I love that old internet aesthetic, so I've adopted it here :)</p>
               </div>
             </div>
             <div class="grid lg:grid-cols-3 xs:grid-cols-1 gap-2 h-65">
