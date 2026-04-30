@@ -9,7 +9,7 @@
 
 html, body { 
     cursor: pointer !important;
-    cursor: url('./assets/mouse1.png'), auto !important 
+    cursor: url('./assets/mouse1.png'), auto !important
 }
 
 @keyframes nyanfly {

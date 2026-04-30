@@ -4,7 +4,7 @@ import games from '../games/games.json'
 function Games() {
 
     return(
-      <div class="bg-green-600">
+      <div class="bg-green-800 bg-[radial-gradient(circle,rgba(255,255,255,0.5)_1px,transparent_1px)] bg-size-[20px_20px]">
         <Headr />
         <div class="grid justify-center">
           <section class="posts">

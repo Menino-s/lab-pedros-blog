@@ -1,9 +1,7 @@
-import oldTec from '../assets/oldtec.gif'
 import Logo from '../assets/Logo.gif'
-import game from '../assets/gamer.gif'
 import nyancat from "../assets/nyancat.gif"
-import connected from '../assets/connection.gif'
-import argLiker from "../assets/arg.gif"
+import paras from "../assets/paras.gif"
+import luxray from "../assets/luxray.gif"
 import { Link } from 'react-router-dom'
 
 
@@ -11,7 +9,8 @@ export default function Headr() {
 
     return(
     <>
-          <div class="flex items-center justify-center p-2.5 relative ">
+    <div class="">
+          <div class="flex items-center justify-center p-2.5 relative">
             <div class="absolute overflow-hidden w-full h-full pointer-events-none z-0">
               <img src={nyancat} class="w-30 nyancat-animate" />
             </div>
@@ -22,19 +21,20 @@ export default function Headr() {
           </div>
           <div class="grid p-3.5">
             <aside class="bg-amber-500 p-2 rounded-2xl shadow-xl/30 inset-shadow-sm inset-shadow-amber-800">
-              <div class="flex flex-wrap justify-center gap-0.5 p-1.5">
-                <img src={oldTec} />
-                <img src={game}  />
-                <img src={connected} />
-                <img src={argLiker} />
+              <div class="flex gap-3 justify-between items-center">
+                <img src={paras} class="max-h-10 rotate-y-180" />
+                <div class="flex flex-wrap items-center gap-1 dark:text-white justify-center">
+                  <Link to="/" class="p-1.5 bg-green-400 rounded-2xl shadow-xl/15 font-snpro inset-shadow-sm inset-shadow-white/80 transition hover:scale-115 hover:shadow-xl/50">Home</Link>
+                  <Link to="/blog" class="p-1.5 bg-green-400 rounded-2xl shadow-xl/15 font-snpro inset-shadow-sm inset-shadow-white/80 transition hover:scale-115 hover:shadow-xl/50">Blog</Link>
+                  <Link to="/whoiam" class="p-1.5 bg-green-400 rounded-2xl shadow-xl/15 font-snpro inset-shadow-sm inset-shadow-white/80 transition hover:scale-115 hover:shadow-xl/50">Who I am?</Link>
+                  <Link to="/games" class="p-1.5 bg-green-400 rounded-2xl shadow-xl/15 font-snpro inset-shadow-sm inset-shadow-white/80 transition hover:scale-115 hover:shadow-xl/50">Games I play</Link>
+                </div>
+                <img src={luxray} class="" />
               </div>
-              <div class="flex flex-wrap align-middle gap-1 dark:text-white justify-center">
-                <Link to="/" class="p-1.5 bg-green-400 rounded-2xl shadow-xl/15 font-snpro inset-shadow-sm inset-shadow-white/80 transition hover:scale-115 hover:shadow-xl/50">Home</Link>
-                <Link to="/whoiam" class="p-1.5 bg-green-400 rounded-2xl shadow-xl/15 font-snpro inset-shadow-sm inset-shadow-white/80 transition hover:scale-115 hover:shadow-xl/50">Who I am?</Link>
-                <Link to="/games" class="p-1.5 bg-green-400 rounded-2xl shadow-xl/15 font-snpro inset-shadow-sm inset-shadow-white/80 transition hover:scale-115 hover:shadow-xl/50">Games I play</Link>
-              </div>
+
             </aside>
           </div>
+    </div>
     </>
 )
 }
