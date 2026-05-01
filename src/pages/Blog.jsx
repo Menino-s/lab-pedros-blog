@@ -13,7 +13,7 @@ function Blog() {
         <Headr />
         <Stickers />
         <div class="grid justify-center z-10">
-          <section class="posts bg-[#181a1b] inset-shadow-sm inset-shadow-white/30 rounded-t-2xl">
+          <section class="posts bg-amber-500 inset-shadow-sm inset-shadow-amber-800 rounded-t-2xl">
             <h1 class="text-center text-2xl text-white p-3">Recently posts</h1>
             <div class="grid lg:grid-cols-3 sm:grid-cols-none gap-3 p-3">
               {

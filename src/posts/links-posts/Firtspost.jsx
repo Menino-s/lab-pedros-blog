@@ -7,12 +7,12 @@ import { Link } from 'react-router-dom'
 function FirtsPost() {
 
     return(
-      <div class="relative bg-green-600 min-h-screen cursor-[url('./assets/mouse1.png')],_pointer">
+      <div class="relative bg-green-800 bg-[radial-gradient(circle,rgba(255,255,255,0.5)_1px,transparent_1px)] bg-size-[20px_20px] cursor-[url('./assets/mouse1.png')],_pointer">
         <Stickers />
         <Headr />
         <div class="z-10">
-          <section class="">
-            <div class="grid justify-center gap-3 p-3">
+          <section class="grid min-h-screen content-around">
+            <div class="grid justify-center  gap-3 p-3">
                 <div class="grid lg:min-w-440 xs:min-w-100 p-3 bg-white rounded-2xl shadow-xl/30 inset-shadow-sm inset-shadow-white/40 dark:bg-[#181a1b] dark:text-white">
                     <h1 class="text-4xl font-snpro">First long post</h1>
                     <span class="text-[13px] align-text-top font-snpro">16:01 pm 04/24/2026</span>
