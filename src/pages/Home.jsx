@@ -106,12 +106,12 @@ function Home() {
                     </div>
                     <div class="bg-white dark:bg-[#181a1b] inset-shadow-sm inset-shadow-white/40 rounded-t-2xl p-3 game_div">
                       <div>
-                        <h2 class="dark:text-white text-black text-lg text-center">Tried? Let's play</h2>
-                        <p class="dark:text-white text-black text-sm text-center">PC only</p>
+                        <h2 class="dark:text-white text-black text-lg text-center">Tired? Let's play</h2>
                       </div>
                       {!isLoaded ? (
                       <div class="flex flex-col items-center justify-center p-4">
-                        <button onClick={() => setIsLoaded(true)} class="px-6 py-2 bg-amber-500 rounded-2xl shadow-xl/15 font-snpro inset-shadow-sm inset-shadow-white/80 transition hover:scale-115 hover:shadow-xl/50">Click to Play!</button>
+                        <button onClick={() => setIsLoaded(true)} class="dark:text-white text-black px-6 py-2 bg-amber-500 rounded-2xl shadow-xl/15 font-snpro inset-shadow-sm inset-shadow-white/80 transition hover:scale-115 hover:shadow-xl/50 lg:block xs:hidden">Click to Play!</button>
+                        <p class="dark:text-white text-black px-6 py-2 bg-amber-500 grayscale-100 rounded-2xl shadow-xl/15 font-snpro inset-shadow-sm inset-shadow-white/80 transition hover:scale-115 hover:shadow-xl/50 lg:hidden xs:block">Sorry don't work on mobile :(</p>
                       </div>
                           ):(
                         <div class="flex justify-center">
