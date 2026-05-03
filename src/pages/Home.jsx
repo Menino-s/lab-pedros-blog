@@ -45,7 +45,7 @@ function Home() {
                       </div>
                     </div>
                   </div>
-                  <div class="grid grid-cols-2 p-2 gap-3 momento_div">
+                  <div class="grid lg:grid-cols-2 p-2 gap-3 momento_div">
                     <div class="bg-white dark:bg-[#181a1b] inset-shadow-sm inset-shadow-white/40 rounded-t-2xl p-2 self-baseline">
                       <h2 class="dark:text-white text-black text-xl">Games I've been playing!</h2>
                       <div class="flex p-4 gap-2">
