@@ -6,7 +6,7 @@ export default function Footer() {
 
     return(
     <>
-        <div class="">    
+        <div class="z-10">    
           <div class="grid">
             <footer class="bg-amber-600 p-4 lg:rounded-t-2xl shadow-xl/30">
               <div class="grid justify-center">

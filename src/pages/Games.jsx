@@ -1,17 +1,18 @@
 import Headr from '../components/header'
 import games from '../games/games.json'
+import LayoutWrapper from '../components/Background'
 
 function Games() {
 
     return(
-      <div class="bg-green-800 bg-[radial-gradient(circle,rgba(255,255,255,0.5)_1px,transparent_1px)] bg-size-[20px_20px]">
-        <Headr />
+      <div>
+        <LayoutWrapper>
         <div class="grid justify-center">
           <section class="posts">
             <div class="grid lg:grid-cols-3 sm:grid-cols-none gap-3 p-3">
               {
                 games.map((gamees) => (
-                <div class="post w-auto max-w-xl p-3 bg-white rounded-2xl shadow-xl/30 gap-6 inset-shadow-sm inset-shadow-white/40 dark:bg-[#181a1b] dark:text-white">
+                  <div class="post w-auto max-w-xl p-3 bg-white rounded-2xl shadow-xl/30 gap-6 inset-shadow-sm inset-shadow-white/40 dark:bg-[#181a1b] dark:text-white">
                     <img src={gamees.img} class="justify-center rounded-2xl sm:w-auto h-auto lg:w-2xs border-2 border-white"/>
                   <div>
                     <h1 class="text-3xl font-snpro pt-3">{gamees.title}</h1>
@@ -23,6 +24,7 @@ function Games() {
             </div>
         </section>
         </div>
+      </LayoutWrapper>
     </div>
     )
 }

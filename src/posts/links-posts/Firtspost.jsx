@@ -3,13 +3,13 @@ import Headr from '../../components/header'
 import Footer from '../../components/Footer'
 import Stickers from '../../components/Stickers'
 import { Link } from 'react-router-dom'
+import LayoutWrapper from '../../components/Background'
 
 function FirtsPost() {
 
     return(
-      <div class="relative bg-green-800 bg-[radial-gradient(circle,rgba(255,255,255,0.5)_1px,transparent_1px)] bg-size-[20px_20px] cursor-[url('./assets/mouse1.png')],_pointer">
-        <Stickers />
-        <Headr />
+      <div>
+        <LayoutWrapper>
         <div class="z-10">
           <section class="grid min-h-screen content-around">
             <div class="grid justify-center  gap-3 p-3">
@@ -24,7 +24,7 @@ function FirtsPost() {
             </div>
         </section>
         </div>
-        <Footer />
+        </LayoutWrapper>
     </div>
     )
 }

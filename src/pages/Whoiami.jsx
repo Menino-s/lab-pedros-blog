@@ -5,11 +5,12 @@ import creuBrasil from "../assets/Brasil.gif"
 import profile from "../assets/profile.jpeg"
 import lovegf from "../assets/lovemygf.gif"
 import profileBorder from "../assets/mischievous_kitties_hearts.png"
+import LayoutWrapper from "../components/Background"
 
 function WhoIam() {
     return (
-        <div class="bg-green-800 bg-[radial-gradient(circle,rgba(255,255,255,0.5)_1px,transparent_1px)] bg-size-[20px_20px]">
-            <Headr />
+        <div >
+            <LayoutWrapper>    
             <div class="grid justify-center">
                 <div class="whoiam">
                     <div class="grid pt-60 pb-73">
@@ -30,7 +31,7 @@ function WhoIam() {
                     </div>
                 </div>
             </div>
-            <Footer />
+            </LayoutWrapper>
         </div>
     )
 }
