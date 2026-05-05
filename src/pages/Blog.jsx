@@ -1,8 +1,5 @@
 import React, { useState } from 'react';
 import ReactPlayer from 'react-player'
-import Headr from '../components/header'
-import Footer from '../components/Footer'
-import Stickers from '../components/Stickers'
 import Posts from '../posts/post.json'
 import LayoutWrapper from '../components/Background.jsx';
 import { Link } from 'react-router-dom'
@@ -25,7 +22,7 @@ function Blog() {
     return(
       <div>
         <LayoutWrapper>
-        <div class="grid justify-center">
+        <div class="grid justify-center font-comicsans">
           <section class="posts bg-green-500/30 backdrop-blur-xl ring-2 ring-inset ring-white/50 inset-shadow-sm inset-shadow-white/90 rounded-t-2xl">
             <h1 class="text-center text-2xl text-white p-3">Recently posts</h1>
             <div class="grid lg:grid-cols-3 sm:grid-cols-none gap-3 p-3">
