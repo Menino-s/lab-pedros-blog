@@ -15,7 +15,7 @@ export default function Headr() {
               <img src={nyancat} class="w-30 nyancat-animate" />
             </div>
             <header class="bg-green-500 rounded-2xl p-5 shadow-xl/50 inset-shadow-sm inset-shadow-white/50 z-10">
-              <Link to="/"> <img src={Logo} class="items-center-safe transition hover:scale-115"></img></Link>
+              <Link to="/"><img src={Logo} class="items-center-safe transition hover:scale-115"></img></Link>
               <p class="text-center text-lg text-shadow-2xs text-shadow-black text-white font-snpro">Welcome to my old internet website</p>
             </header>
           </div>

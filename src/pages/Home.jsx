@@ -18,7 +18,7 @@ function Home() {
       <div>
         <LayoutWrapper>
           <div class="grid justify-center">
-            <div class="grid bg-amber-500 inset-shadow-sm inset-shadow-amber-800 p-3 rounded-t-2xl gap-1 max-w-400">
+            <div class="grid bg-amber-500 inset-shadow-sm inset-shadow-amber-800 p-3 rounded-t-2xl gap-1 max-w-400 min-h-screen">
               <div class="grid lg:grid-cols-2 gap-3 content-baseline">
                 <div class="grid gap-1 content-baseline left_div">
                   <div class="bg-white dark:bg-[#181a1b] inset-shadow-sm inset-shadow-white/40 rounded-t-2xl p-2">
