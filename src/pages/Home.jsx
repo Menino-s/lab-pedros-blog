@@ -18,7 +18,7 @@ function Home() {
       <div>
         <LayoutWrapper>
           <div class="grid justify-center">
-            <div class="grid bg-amber-500 inset-shadow-sm inset-shadow-amber-800 p-3 rounded-t-2xl gap-1 max-w-400 min-h-screen">
+            <div class="grid bg-green-500/30 backdrop-blur-xl ring-2 ring-inset ring-white/50 inset-shadow-sm inset-shadow-white/90 p-3 rounded-t-2xl gap-1 max-w-400 min-h-screen">
               <div class="grid lg:grid-cols-2 gap-3 content-baseline">
                 <div class="grid gap-1 content-baseline left_div">
                   <div class="bg-white dark:bg-[#181a1b] inset-shadow-sm inset-shadow-white/40 rounded-t-2xl p-2">
@@ -27,7 +27,7 @@ function Home() {
                   </div>
                   <div class="lg:flex p-2 gap-3 cake_div">
                     <div class="p-2 xs:grid xs:justify-center">
-                      <iframe class="bg-white border-4 rounded-xl border-amber-200" width="314" height="321" scrolling="no" src="https://gifypet.neocities.org/pet/pet.html?name=Cake&dob=1777655291&gender=f&element=Earth&pet=https%3A%2F%2Fimg.pokemondb.net%2Fsprites%2Fblack-white%2Fanim%2Fnormal%2Fpikachu-f.gif&map=https%3A%2F%2Fimages.stockcake.com%2Fpublic%2F9%2F7%2F9%2F97908976-dccf-4bdf-8f66-81f787b0c28e_medium%2Fenchanted-forest-path-stockcake.jpg&background=&tablecolor=%23529d32&textcolor=black" frameborder="0"></iframe>
+                      <iframe class="bg-white border-4 rounded-xl border-green-200/30" width="314" height="321" scrolling="no" src="https://gifypet.neocities.org/pet/pet.html?name=Cake&dob=1777655291&gender=f&element=Earth&pet=https%3A%2F%2Fimg.pokemondb.net%2Fsprites%2Fblack-white%2Fanim%2Fnormal%2Fpikachu-f.gif&map=https%3A%2F%2Fimages.stockcake.com%2Fpublic%2F9%2F7%2F9%2F97908976-dccf-4bdf-8f66-81f787b0c28e_medium%2Fenchanted-forest-path-stockcake.jpg&background=&tablecolor=%23529d32&textcolor=black" frameborder="0"></iframe>
                     </div>
                     <div class="grid content-baseline gap-2">
                       <div class="bg-white dark:bg-[#181a1b] inset-shadow-sm inset-shadow-white/40 rounded-t-2xl p-2 self-baseline">
@@ -110,8 +110,8 @@ function Home() {
                       </div>
                       {!isLoaded ? (
                       <div class="flex flex-col items-center justify-center p-4">
-                        <button onClick={() => setIsLoaded(true)} class="dark:text-white text-black px-6 py-2 bg-amber-500 rounded-2xl shadow-xl/15 font-snpro inset-shadow-sm inset-shadow-white/80 transition hover:scale-115 hover:shadow-xl/50 lg:block xs:hidden">Click to Play!</button>
-                        <p class="dark:text-white text-black px-6 py-2 bg-amber-500 grayscale-100 rounded-2xl shadow-xl/15 font-snpro inset-shadow-sm inset-shadow-white/80 transition hover:scale-115 hover:shadow-xl/50 lg:hidden xs:block">Sorry don't work on mobile :(</p>
+                        <button onClick={() => setIsLoaded(true)} class="dark:text-white text-black px-6 py-2 bg-green-500 rounded-2xl shadow-xl/15 font-snpro inset-shadow-sm inset-shadow-white/80 transition hover:scale-115 hover:shadow-xl/50 lg:block xs:hidden">Click to Play!</button>
+                        <p class="dark:text-white text-black px-6 py-2 bg-green-500 grayscale-100 rounded-2xl shadow-xl/15 font-snpro inset-shadow-sm inset-shadow-white/80 transition hover:scale-115 hover:shadow-xl/50 lg:hidden xs:block">Sorry don't work on mobile :(</p>
                       </div>
                           ):(
                         <div class="flex justify-center">

@@ -1,3 +1,4 @@
+import React, { useState } from 'react';
 import ReactPlayer from 'react-player'
 import Headr from '../components/header'
 import Footer from '../components/Footer'
@@ -8,11 +9,24 @@ import { Link } from 'react-router-dom'
 
 function Blog() {
 
+  const PaginatedList = ({ data }) => {
+  const [currentPage, setCurrentPage] = useState(1);
+  const pageSize = 10; // Itens por página
+
+  // Lógica da paginação
+  const totalPages = Math.ceil(data.length / pageSize);
+  const indexOfLastItem = currentPage * pageSize;
+  const indexOfFirstItem = indexOfLastItem - pageSize;
+  const currentItems = data.slice(indexOfFirstItem, indexOfLastItem);
+
+  // Mudar de página
+  const paginate = (pageNumber) => setCurrentPage(pageNumber);}
+
     return(
       <div>
         <LayoutWrapper>
         <div class="grid justify-center">
-          <section class="posts bg-amber-500 inset-shadow-sm inset-shadow-amber-800 rounded-t-2xl">
+          <section class="posts bg-green-500/30 backdrop-blur-xl ring-2 ring-inset ring-white/50 inset-shadow-sm inset-shadow-white/90 rounded-t-2xl">
             <h1 class="text-center text-2xl text-white p-3">Recently posts</h1>
             <div class="grid lg:grid-cols-3 sm:grid-cols-none gap-3 p-3">
               {
