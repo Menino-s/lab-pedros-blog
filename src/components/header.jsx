@@ -50,11 +50,11 @@ export default function Headr() {
             <aside class="bg-green-700/40 backdrop-blur-md p-2 rounded-2xl shadow-xl/30 ring-2 ring-inset ring-white/50 inset-shadow-sm inset-shadow-white/90">
               <div class="flex gap-142 justify-between items-center">
                 <img src={paras} class="max-h-10 rotate-y-180" />
-                <div class="flex flex-wrap items-center gap-0.5 dark:text-white justify-center">
-                  <Link to="/" class="p-1.5 bg-green-800 rounded-xl shadow-xl/15 font-comicsans inset-shadow-sm inset-shadow-white/80 transition hover:scale-115 hover:shadow-xl/50 hover:bg-green-800/60">Home</Link>
-                  <Link to="/blog" class="p-1.5 bg-green-800 rounded-xl shadow-xl/15 font-comicsans inset-shadow-sm inset-shadow-white/80 transition hover:scale-115 hover:shadow-xl/50 hover:bg-green-800/60">Blog</Link>
-                  <Link to="/whoiam" class="p-1.5 bg-green-800 rounded-xl shadow-xl/15 font-comicsans inset-shadow-sm inset-shadow-white/80 transition hover:scale-115 hover:shadow-xl/50 hover:bg-green-800/60">Who I am?</Link>
-                  <Link to="/games" class="p-1.5 bg-green-800 rounded-xl shadow-xl/15 font-comicsans inset-shadow-sm inset-shadow-white/80 transition hover:scale-115 hover:shadow-xl/50 hover:bg-green-800/60">Games I play</Link>
+                <div class="flex flex-wrap items-center gap-0.5 justify-center">
+                  <Link to="/" class="p-1.5 bg-green-800 rounded-xl shadow-xl/15 font-comicsans inset-shadow-sm inset-shadow-white/80 transition hover:scale-115 hover:shadow-xl/50 hover:bg-green-800/60 text-white">Home</Link>
+                  <Link to="/blog" class="p-1.5 bg-green-800 rounded-xl shadow-xl/15 font-comicsans inset-shadow-sm inset-shadow-white/80 transition hover:scale-115 hover:shadow-xl/50 hover:bg-green-800/60 text-white">Blog</Link>
+                  <Link to="/whoiam" class="p-1.5 bg-green-800 rounded-xl shadow-xl/15 font-comicsans inset-shadow-sm inset-shadow-white/80 transition hover:scale-115 hover:shadow-xl/50 hover:bg-green-800/60 text-white">Who I am?</Link>
+                  <Link to="/games" class="p-1.5 bg-green-800 rounded-xl shadow-xl/15 font-comicsans inset-shadow-sm inset-shadow-white/80 transition hover:scale-115 hover:shadow-xl/50 hover:bg-green-800/60 text-white">Games I play</Link>
                 </div>
                 <img src={luxray} class="" />
               </div>

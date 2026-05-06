@@ -1,20 +1,22 @@
-import Headr from '../components/header'
+import { LayoutWrapper, Divmain, Container } from '../components'
 import games from '../games/games.json'
-import LayoutWrapper from '../components/Background'
 
 function Games() {
 
     return(
       <div>
         <LayoutWrapper>
-        <div class="grid justify-center">
-          <section class="bg-green-800/40 ">
-          <div>
-            sdalsçd
-          </div>
-          </section>
-        </div>
-      </LayoutWrapper>
+          <Divmain>
+            <div class="grid grid-cols-2 gap-3">
+              <Container>
+                <h2>Games I play</h2>
+              </Container>
+              <Container>
+                <h2>Games i wanted to play</h2>
+              </Container>
+            </div>
+          </Divmain>
+        </LayoutWrapper>
     </div>
     )
 }

@@ -15,7 +15,7 @@ function Home() {
             <div class="grid lg:grid-cols-2 gap-3 content-baseline">
               <section class="grid gap-1 content-baseline left_div">
                     <Container>
-                      <h1 class="dark:text-white text-black text-2xl text-center">This is my old internet website!</h1>
+                      <h1 class="text-2xl text-center">This is my old internet website!</h1>
                       <p class="dark:text-gray-200 text-black text-md p-2 pt-0">Hi, this is my old internet blog, a little corner where I always try to make some posts or just stay. I'm not from the blogging era, but one day I stopped and thought, "Why can't I have my own blog?" Is it too old-fashioned for me? You bet it is, but I don't mind. I love that old internet aesthetic, so I've adopted it here :)</p>
                     </Container>
                     <div class="lg:flex p-2 gap-3 cake_div">
@@ -24,44 +24,44 @@ function Home() {
                       </div>
                       <div class="grid content-baseline gap-2">
                         <Container>
-                          <h2 class="dark:text-white text-black text-xl">This is the cake!</h2>
+                          <h2 class="text-xl">This is the cake!</h2>
                           <p class="dark:text-gray-200 text-black text-md p-2 pt-">Cake is the mascot of my website! Remember to treat her very well; she always tells me everything that happens here when I'm not around. Be nice to her, pet her, and don't forget to feed her when you come here :)</p>
                         </Container>
                         <Container>
-                          <h2 class="dark:text-white text-black text-xl">Latest Events</h2>
+                          <h2 class="text-xl">Latest Events</h2>
                           <ul class="list-disc marker:text-black dark:marker:text-white pl-6 pt-3">
-                            <li class="dark:text-white text-black text-sm">I went out with my girlfriend.</li>
-                            <li class="dark:text-white text-black text-sm">I fixed my Camera.</li>
-                            <li class="dark:text-white text-black text-sm">I started playing TF2 again.</li>
-                            <li class="dark:text-white text-black text-sm">Blog update.</li>
+                            <li class="text-sm">I went out with my girlfriend.</li>
+                            <li class="text-sm">I fixed my Camera.</li>
+                            <li class="text-sm">I started playing TF2 again.</li>
+                            <li class="text-sm">Blog update.</li>
                           </ul>
                         </Container>
                       </div>
                     </div>
                     <div class="grid lg:grid-cols-2 p-2 gap-3 momento_div">
                       <Container>
-                        <h2 class="dark:text-white text-black text-xl">Games I've been playing!</h2>
+                        <h2 class="text-xl">Games I've been playing!</h2>
                         <div class="flex p-4 gap-2">
                           <div>
                             <img src="https://cdn2.steamgriddb.com/thumb/41dfccda9b5b255be17050bf5fb959f3.png" class="w-40" />
-                            <p class="text-md text-white text-center">Team Fortress 2</p>
+                            <p class="text-md text-center">Team Fortress 2</p>
                           </div>
                           <div>
                             <img src="https://cdn2.steamgriddb.com/thumb/0662aa1719017e0efa5fa8daf0880c6e.jpg" class="w-40" />
-                            <p class="text-md text-white text-center">Counter-Strike 2</p>
+                            <p class="text-md text-center">Counter-Strike 2</p>
                           </div>
                         </div>
                       </Container>
                       <Container>
-                        <h2 class="dark:text-white text-black text-xl">Games I want to play!</h2>
+                        <h2 class="text-xl">Games I want to play!</h2>
                         <div class="flex p-4 gap-2">
                           <div>
                             <img src="https://cdn2.steamgriddb.com/thumb/f711cc70dbdab88f32389ec84e56a242.jpg" class="w-40" />
-                            <p class="text-md text-white text-center">The Legend of Zelda: Ocarina of Time</p>
+                            <p class="text-md text-center">The Legend of Zelda: Ocarina of Time</p>
                           </div>
                           <div>
                             <img src="https://cdn2.steamgriddb.com/thumb/9c18e95d26ff5ace5a25d31332be86f8.jpg" class="w-69.5" />
-                            <p class="text-md text-white text-center">Bombun</p>
+                            <p class="text-md text-center">Bombun</p>
                           </div>
                         </div>
                       </Container>
@@ -70,8 +70,8 @@ function Home() {
               <section class="grid lg:grid-cols-2 gap-1 content-baseline right_div">
                     <Container class="tags_div">
                       <div class="lg:pb-15 xs:pb-0">
-                        <h2 class="text-white text-xl text-center">Some tags</h2>
-                        <p class="text-white text-md pt-2">Here are some tags that might represent me, since much of what I post on this blog is related to something from here!</p>
+                        <h2 class=" text-xl text-center">Some tags</h2>
+                        <p class=" text-md pt-2">Here are some tags that might represent me, since much of what I post on this blog is related to something from here!</p>
                       </div>
                       <div class="grid grid-cols-3 gap-1">
                         <img src={oldTec}  />
@@ -83,14 +83,14 @@ function Home() {
                     </div>
                     </Container>
                     <div class="grid bg-white dark:bg-[#181a1b] inset-shadow-sm inset-shadow-white/40 rounded-t-2xl p-2 gap-2 song_div">
-                      <h3 class="text-center text-white text-xl">Songs I've been listening to this week</h3>
+                      <h3 class="text-center  text-xl">Songs I've been listening to this week</h3>
                       <div class="relative lg:h-50 xs:h-25 w-full">
                         <img src="https://i.scdn.co/image/ab67616d0000b273c7c031ce9d06b131f8563676" class="absolute left-1/2 top-0 -translate-x-1/2 z-20 lg:max-w-55 xs:max-w-25" />
                         <img src={cd} class="absolute lg:left-36 xs:left-43 top-4 z-10 lg:max-w-50 xs:max-w-20 animate-spin" />
                       </div>
                       <div class="pt-3">
-                        <h4 class="text-white text-xl text-center">Dracula (JENNIE Remix)</h4>
-                        <p class="text-white text-sm text-center">Tame Impala, Feat JENNIE</p>
+                        <h4 class=" text-xl text-center">Dracula (JENNIE Remix)</h4>
+                        <p class=" text-sm text-center">Tame Impala, Feat JENNIE</p>
                       </div>
                     </div>
                     <div class="chat_div and game_div">
@@ -99,12 +99,12 @@ function Home() {
                       </div>
                       <Container class="game_div">
                         <div>
-                          <h2 class="dark:text-white text-black text-lg text-center">Tired? Let's play</h2>
+                          <h2 class="text-lg text-center">Tired? Let's play</h2>
                         </div>
                         {!isLoaded ? (
                         <div class="flex flex-col items-center justify-center p-4">
-                          <button onClick={() => setIsLoaded(true)} class="dark:text-white text-black px-6 py-2 bg-green-500 rounded-2xl shadow-xl/15 font-snpro inset-shadow-sm inset-shadow-white/80 transition hover:scale-115 hover:shadow-xl/50 lg:block xs:hidden">Click to Play!</button>
-                          <p class="dark:text-white text-black px-6 py-2 bg-green-500 grayscale-100 rounded-2xl shadow-xl/15 font-snpro inset-shadow-sm inset-shadow-white/80 transition hover:scale-115 hover:shadow-xl/50 lg:hidden xs:block">Sorry don't work on mobile :(</p>
+                          <button onClick={() => setIsLoaded(true)} class="px-6 py-2 bg-green-500 rounded-2xl shadow-xl/15 font-snpro inset-shadow-sm inset-shadow-white/80 transition hover:scale-115 hover:shadow-xl/50 lg:block xs:hidden">Click to Play!</button>
+                          <p class="px-6 py-2 bg-green-500 grayscale-100 rounded-2xl shadow-xl/15 font-snpro inset-shadow-sm inset-shadow-white/80 transition hover:scale-115 hover:shadow-xl/50 lg:hidden xs:block">Sorry don't work on mobile :(</p>
                         </div>
                             ):(
                           <div class="flex justify-center">
@@ -114,7 +114,7 @@ function Home() {
                       </Container>
                     </div>
                     <Container class="cutepic_div">
-                      <p class="text-center text-md text-white text-shadow-2xs/60 text-shadow-black">Cute pic of Pokémon's!</p>
+                      <p class="text-center text-md  text-shadow-2xs/60 text-shadow-black">Cute pic of Pokémon's!</p>
                       <img src="https://i.pinimg.com/736x/79/fa/03/79fa03c77f75308b56ec3b6b050b4e2c.jpg" class="border-4 border-amber-200/40 rounded-3xl" />
                     </Container>
               </section>
