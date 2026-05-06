@@ -5,6 +5,7 @@ import { oldTec, game, music, cd, connected, website, argLiker } from '../assets
 import { Divmain, LayoutWrapper, Container} from "../components"
 import Posts from '../posts/post.json'
 
+
 function Home() {
   const [isLoaded, setIsLoaded] = useState(false);
 
@@ -28,13 +29,9 @@ function Home() {
                           <p class="dark:text-gray-200 text-black text-md p-2 pt-">Cake is the mascot of my website! Remember to treat her very well; she always tells me everything that happens here when I'm not around. Be nice to her, pet her, and don't forget to feed her when you come here :)</p>
                         </Container>
                         <Container>
-                          <h2 class="text-xl">Latest Events</h2>
-                          <ul class="list-disc marker:text-black dark:marker:text-white pl-6 pt-3">
-                            <li class="text-sm">I went out with my girlfriend.</li>
-                            <li class="text-sm">I fixed my Camera.</li>
-                            <li class="text-sm">I started playing TF2 again.</li>
-                            <li class="text-sm">Blog update.</li>
-                          </ul>
+                          <h2 class="text-xl">Status Update</h2>
+                          <p class="text-xs text-gray-300/60">Posted 05/06/2026</p>
+                          <p>I won a graphics tablet :)</p>
                         </Container>
                       </div>
                     </div>
@@ -85,12 +82,12 @@ function Home() {
                     <div class="grid bg-white dark:bg-[#181a1b] inset-shadow-sm inset-shadow-white/40 rounded-t-2xl p-2 gap-2 song_div">
                       <h3 class="text-center  text-xl">Songs I've been listening to this week</h3>
                       <div class="relative lg:h-50 xs:h-25 w-full">
-                        <img src="https://i.scdn.co/image/ab67616d0000b273c7c031ce9d06b131f8563676" class="absolute left-1/2 top-0 -translate-x-1/2 z-20 lg:max-w-55 xs:max-w-25" />
+                        <img src="https://scontent.fsjk2-1.fna.fbcdn.net/v/t39.30808-6/540557663_1350323153764698_7610292757956082834_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=13d280&_nc_ohc=eeV0h-6W5ncQ7kNvwGjjeAP&_nc_oc=AdpPFn-FehXeH6sZ66cpAqqOfRMtBb2XFeOa2yWGx0jh_t9WoC65_vhENCi1vy9zYI0rIngJkHDRemygupM3HeVd&_nc_zt=23&_nc_ht=scontent.fsjk2-1.fna&_nc_gid=TJ11Lp-ig8jsk3UmkYL_RA&_nc_ss=7b2a8&oh=00_Af47bEEhSIUAZV04P6W4CUjHHm8Pj9h-NGyZnARsVFnGuQ&oe=6A013E8C" class="absolute left-1/2 top-0 -translate-x-1/2 z-20 lg:max-w-55 xs:max-w-25" />
                         <img src={cd} class="absolute lg:left-36 xs:left-43 top-4 z-10 lg:max-w-50 xs:max-w-20 animate-spin" />
                       </div>
                       <div class="pt-3">
-                        <h4 class=" text-xl text-center">Dracula (JENNIE Remix)</h4>
-                        <p class=" text-sm text-center">Tame Impala, Feat JENNIE</p>
+                        <h4 class=" text-xl text-center">When Did You Get Hot?</h4>
+                        <p class=" text-sm text-center">Sabrina Carpenter</p>
                       </div>
                     </div>
                     <div class="chat_div and game_div">
