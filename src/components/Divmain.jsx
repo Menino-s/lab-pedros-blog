@@ -1,0 +1,11 @@
+const Divmain = ({ children }) => {
+  return (
+    <div class="grid justify-center font-comicsans">
+      <div class="grid bg-green-500/30 backdrop-blur-xl ring-2 ring-inset ring-white/50 inset-shadow-sm inset-shadow-white/90 p-3 rounded-t-2xl gap-1 max-w-400 min-h-screen">
+        {children}
+      </div>
+    </div>
+  );
+};
+
+export default Divmain;
