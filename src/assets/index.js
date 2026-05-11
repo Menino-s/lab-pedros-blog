@@ -13,4 +13,4 @@ export { default as kittys } from './kittys.gif';
 export { default as github } from './github.gif';
 export { default as wii } from './wii.gif';
 export { default as resolution } from './1080p.gif';
-export { default as kitty } from './gatinhasite.png';
+export { default as kitty } from './gatinhasite-thiking.png';

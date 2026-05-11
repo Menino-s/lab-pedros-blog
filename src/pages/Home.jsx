@@ -53,12 +53,12 @@ function Home() {
                         <h2 class="text-xl">Games I want to play!</h2>
                         <div class="flex p-4 gap-2">
                           <div>
-                            <img src="https://cdn2.steamgriddb.com/thumb/f711cc70dbdab88f32389ec84e56a242.jpg" class="w-40 h-60" />
-                            <p class="text-md text-center">The Legend of Zelda: Ocarina of Time</p>
+                            <img src="https://cdn2.steamgriddb.com/thumb/f519bcff8be73f7baa7123d387778ba0.jpg" class="w-69.5 h-60" />
+                            <p class="text-md text-center">Hey you, Pikachu!</p>
                           </div>
                           <div>
-                            <img src="https://cdn2.steamgriddb.com/thumb/9c18e95d26ff5ace5a25d31332be86f8.jpg" class="w-69.5 h-60" />
-                            <p class="text-md text-center">Bombun</p>
+                            <img src="https://cdn2.steamgriddb.com/thumb/f711cc70dbdab88f32389ec84e56a242.jpg" class="w-40 h-60" />
+                            <p class="text-md text-center">The Legend of Zelda: Ocarina of Time</p>
                           </div>
                         </div>
                       </Container>
@@ -103,11 +103,11 @@ function Home() {
                       <div class="chat_div pb-2">
                         <iframe src="https://www3.cbox.ws/box/?boxid=3554800&boxtag=VN9wkA" class="xs:h-50 lg:h-37.5" width="100%" allowtransparency="yes" allow="autoplay" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>	
                       </div>
-                    <div class="flex xs:justify-center">
+                    <div class="flex xs:hidden lg:flex">
                       <img src={kitty} class="h-75" />
                       <div class="relative xs:hidden lg:block">
                         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Speech_bubble.svg/3840px-Speech_bubble.svg.png" class="" />
-                        <p class="top-134 left-266 fixed text-md">That's strange.</p>
+                        <p class="top-131 left-267 fixed text-md">Why don't you <br/> talk to Cake?</p>
                       </div>
                     </div>
                     </div>
