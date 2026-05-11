@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import ReactPlayer from 'react-player'
 import { Link } from 'react-router-dom'
-import { oldTec, game, music, cd, connected, website, argLiker } from '../assets';
+import { oldTec, game, music, cd, connected, website, argLiker, paws, steam, kitty } from '../assets';
 import { Divmain, LayoutWrapper, Container} from "../components"
 import Posts from '../posts/post.json'
 
@@ -30,8 +30,8 @@ function Home() {
                         </Container>
                         <Container>
                           <h2 class="text-xl">Status Update</h2>
-                          <p class="text-xs text-gray-300/60">Posted 05/06/2026</p>
-                          <p>I won a graphics tablet :)</p>
+                          <p class="text-xs text-gray-300/60">Posted 05/11/2026</p>
+                          <p>The website is up to date :D</p>
                         </Container>
                       </div>
                     </div>
@@ -78,37 +78,33 @@ function Home() {
                         <img src={music}  />
                         <img src={website}  />
                     </div>
+                    <div class="flex justify-center gap-1 p-2">
+                        <a href="https://steamcommunity.com/id/pdrinme/"><img src={steam}  /></a>
+                        <img src={paws}  />
+                    </div>
                     </Container>
                     <div class="grid bg-white dark:bg-[#181a1b] inset-shadow-sm inset-shadow-white/40 rounded-t-2xl p-2 gap-2 song_div">
                       <h3 class="text-center  text-xl">Songs I've been listening to this week</h3>
                       <div class="relative lg:h-50 xs:h-25 w-full">
-                        <img src="https://scontent.fsjk2-1.fna.fbcdn.net/v/t39.30808-6/540557663_1350323153764698_7610292757956082834_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=13d280&_nc_ohc=eeV0h-6W5ncQ7kNvwGjjeAP&_nc_oc=AdpPFn-FehXeH6sZ66cpAqqOfRMtBb2XFeOa2yWGx0jh_t9WoC65_vhENCi1vy9zYI0rIngJkHDRemygupM3HeVd&_nc_zt=23&_nc_ht=scontent.fsjk2-1.fna&_nc_gid=TJ11Lp-ig8jsk3UmkYL_RA&_nc_ss=7b2a8&oh=00_Af47bEEhSIUAZV04P6W4CUjHHm8Pj9h-NGyZnARsVFnGuQ&oe=6A013E8C" class="absolute left-1/2 top-0 -translate-x-1/2 z-20 lg:max-w-55 xs:max-w-25" />
+                        <img src="https://i.scdn.co/image/ab67616d0000b273692200d20ace9f3500171527" class="absolute left-1/2 top-0 -translate-x-1/2 z-20 lg:max-w-55 xs:max-w-25" />
                         <img src={cd} class="absolute lg:left-36 xs:left-43 top-4 z-10 lg:max-w-50 xs:max-w-20 animate-spin" />
                       </div>
                       <div class="pt-3">
-                        <h4 class=" text-xl text-center">When Did You Get Hot?</h4>
-                        <p class=" text-sm text-center">Sabrina Carpenter</p>
+                        <h4 class=" text-xl text-center">Snaker Eater</h4>
+                        <p class=" text-sm text-center">Cynthia Harrell</p>
                       </div>
                     </div>
                     <div class="chat_div and game_div">
                       <div class="chat_div pb-2">
                         <iframe src="https://www3.cbox.ws/box/?boxid=3554800&boxtag=VN9wkA" class="xs:h-50 lg:h-37.5" width="100%" allowtransparency="yes" allow="autoplay" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>	
                       </div>
-                      <Container class="game_div">
-                        <div>
-                          <h2 class="text-lg text-center">Tired? Let's play</h2>
-                        </div>
-                        {!isLoaded ? (
-                        <div class="flex flex-col items-center justify-center p-4">
-                          <button onClick={() => setIsLoaded(true)} class="px-6 py-2 bg-green-500 rounded-2xl shadow-xl/15 font-snpro inset-shadow-sm inset-shadow-white/80 transition hover:scale-115 hover:shadow-xl/50 lg:block xs:hidden">Click to Play!</button>
-                          <p class="px-6 py-2 bg-green-500 grayscale-100 rounded-2xl shadow-xl/15 font-snpro inset-shadow-sm inset-shadow-white/80 transition hover:scale-115 hover:shadow-xl/50 lg:hidden xs:block">Sorry don't work on mobile :(</p>
-                        </div>
-                            ):(
-                          <div class="flex justify-center">
-                            <iframe src="https://html.itch.zone/html/15584148/index.html" width="250" height="350" scrolling="no" frameborder="0" />
-                          </div>)
-                        }
-                      </Container>
+                    <div class="flex xs:justify-center">
+                      <img src={kitty} class="h-75" />
+                      <div class="relative xs:hidden lg:block">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Speech_bubble.svg/3840px-Speech_bubble.svg.png" class="" />
+                        <p class="top-134 left-266 fixed text-md">That's strange.</p>
+                      </div>
+                    </div>
                     </div>
                     <Container class="cutepic_div">
                       <p class="text-center text-md  text-shadow-2xs/60 text-shadow-black">Cute pic of Pokémon's!</p>

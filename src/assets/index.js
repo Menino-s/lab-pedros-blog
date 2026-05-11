@@ -5,3 +5,6 @@ export { default as argLiker } from './arg.gif';
 export { default as cd } from './cd.png';
 export { default as website } from './website.gif';
 export { default as connected } from './connection.gif';
+export { default as paws } from './paws.png';
+export { default as steam } from './steam.gif';
+export { default as kitty } from './gatinhasite.png';
