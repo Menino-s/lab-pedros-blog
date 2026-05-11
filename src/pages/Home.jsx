@@ -16,7 +16,7 @@ function Home() {
             <div class="grid lg:grid-cols-2 gap-3 content-baseline">
               <section class="grid gap-1 content-baseline left_div">
                     <Container>
-                      <h1 class="text-2xl text-center">This is my old internet website!</h1>
+                      <h1 class="text-2xl text-center">Welcome to my Blog!</h1>
                       <p class="dark:text-gray-200 text-black text-md p-2 pt-0">Hi, this is my old internet blog, a little corner where I always try to make some posts or just stay. I'm not from the blogging era, but one day I stopped and thought, "Why can't I have my own blog?" Is it too old-fashioned for me? You bet it is, but I don't mind. I love that old internet aesthetic, so I've adopted it here :)</p>
                     </Container>
                     <div class="lg:flex p-2 gap-3 cake_div">
@@ -113,7 +113,7 @@ function Home() {
                     </div>
                     <Container class="cutepic_div">
                       <p class="text-center text-md  text-shadow-2xs/60 text-shadow-black">Cute pic of Pokémon's!</p>
-                      <img src="https://i.pinimg.com/736x/79/fa/03/79fa03c77f75308b56ec3b6b050b4e2c.jpg" class="border-4 border-amber-200/40 rounded-3xl" />
+                      <img src="https://i.pinimg.com/736x/a8/c4/6f/a8c46fc35a818a340049369e26e5de7b.jpg" class="border-4 border-amber-200/40 rounded-3xl" />
                     </Container>
               </section>
             </div>

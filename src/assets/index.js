@@ -14,3 +14,8 @@ export { default as github } from './github.gif';
 export { default as wii } from './wii.gif';
 export { default as resolution } from './1080p.gif';
 export { default as kitty } from './gatinhasite-thiking.png';
+export { default as lovegf } from './lovemygf.gif';
+export { default as creuBrasil } from "../assets/Brasil.gif";
+export { default as profile } from "../assets/profile.png";
+export { default as profilepic } from "../assets/profilepic.gif";
+export { default as profileBorder } from "../assets/mischievous_kitties_hearts.png";
