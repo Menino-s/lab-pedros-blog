@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import ReactPlayer from 'react-player'
 import { Link } from 'react-router-dom'
-import { oldTec, game, music, cd, connected, website, argLiker, paws, steam, kitty } from '../assets';
+import { oldTec, game, music, cd, connected, website, argLiker, musical, brazil, kittys, paws, steam, wii, resolution, github, kitty } from '../assets';
 import { Divmain, LayoutWrapper, Container} from "../components"
 import Posts from '../posts/post.json'
 
@@ -40,12 +40,12 @@ function Home() {
                         <h2 class="text-xl">Games I've been playing!</h2>
                         <div class="flex p-4 gap-2">
                           <div>
-                            <img src="https://cdn2.steamgriddb.com/thumb/41dfccda9b5b255be17050bf5fb959f3.png" class="w-40" />
+                            <img src="https://cdn2.steamgriddb.com/thumb/41dfccda9b5b255be17050bf5fb959f3.png" class="w-40 h-60" />
                             <p class="text-md text-center">Team Fortress 2</p>
                           </div>
                           <div>
-                            <img src="https://cdn2.steamgriddb.com/thumb/0662aa1719017e0efa5fa8daf0880c6e.jpg" class="w-40" />
-                            <p class="text-md text-center">Counter-Strike 2</p>
+                            <img src="https://cdn2.steamgriddb.com/thumb/40a6038002e256e8ade0a4f29a98e616.jpg" class="w-40 h-60" />
+                            <p class="text-md text-center">Pokémon White Version</p>
                           </div>
                         </div>
                       </Container>
@@ -53,11 +53,11 @@ function Home() {
                         <h2 class="text-xl">Games I want to play!</h2>
                         <div class="flex p-4 gap-2">
                           <div>
-                            <img src="https://cdn2.steamgriddb.com/thumb/f711cc70dbdab88f32389ec84e56a242.jpg" class="w-40" />
+                            <img src="https://cdn2.steamgriddb.com/thumb/f711cc70dbdab88f32389ec84e56a242.jpg" class="w-40 h-60" />
                             <p class="text-md text-center">The Legend of Zelda: Ocarina of Time</p>
                           </div>
                           <div>
-                            <img src="https://cdn2.steamgriddb.com/thumb/9c18e95d26ff5ace5a25d31332be86f8.jpg" class="w-69.5" />
+                            <img src="https://cdn2.steamgriddb.com/thumb/9c18e95d26ff5ace5a25d31332be86f8.jpg" class="w-69.5 h-60" />
                             <p class="text-md text-center">Bombun</p>
                           </div>
                         </div>
@@ -66,7 +66,7 @@ function Home() {
               </section>
               <section class="grid lg:grid-cols-2 gap-1 content-baseline right_div">
                     <Container class="tags_div">
-                      <div class="lg:pb-15 xs:pb-0">
+                      <div class="lg:pb-10 xs:pb-0">
                         <h2 class=" text-xl text-center">Some tags</h2>
                         <p class=" text-md pt-2">Here are some tags that might represent me, since much of what I post on this blog is related to something from here!</p>
                       </div>
@@ -77,9 +77,14 @@ function Home() {
                         <img src={argLiker}  />
                         <img src={music}  />
                         <img src={website}  />
+                        <img src={musical}  />
+                        <img src={brazil}  />
+                        <img src={kittys}  />
                     </div>
-                    <div class="flex justify-center gap-1 p-2">
-                        <a href="https://steamcommunity.com/id/pdrinme/"><img src={steam}  /></a>
+                    <div class="flex justify-center gap-1 p-2 min-w-8 content-center">
+                        <a href="https://steamcommunity.com/id/pdrinme/"><img src={steam} /></a>
+                        <a href="https://github.com/pdrinme"><img src={github}  /></a>
+                        <img src={resolution}  />
                         <img src={paws}  />
                     </div>
                     </Container>

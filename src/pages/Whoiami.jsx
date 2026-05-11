@@ -2,35 +2,43 @@ import Headr from "../components/header"
 import Footer from '../components/Footer'
 import Stickers from '../components/Stickers'
 import creuBrasil from "../assets/Brasil.gif"
-import profile from "../assets/profile.jpeg"
+import profile from "../assets/profile.png"
+import profilepic from "../assets/profilepic.gif"
 import lovegf from "../assets/lovemygf.gif"
 import profileBorder from "../assets/mischievous_kitties_hearts.png"
 import LayoutWrapper from "../components/Background"
+import { Container, Divmain } from "../components"
 
 function WhoIam() {
     return (
         <div >
             <LayoutWrapper>    
-            <div class="grid justify-center">
-                <div class="whoiam">
-                    <div class="grid pt-60 pb-73">
-                        <div class="grid grid-cols-2 w-auto max-w-xl p-6 bg-white rounded-2xl shadow-xl/30 gap-6 inset-shadow-sm inset-shadow-white/40 dark:bg-[#181a1b] dark:text-white">
-                            <div class="relative">
-                                <img src={profile} class="rounded-[24rem] w-7xl" />
-                                <img src={profileBorder} class="absolute inset-0" />
-                            </div>
-                            <div>
-                                <h1 class="text-2xl">Hi, I am Pedro Menino</h1>
-                                <p class="text-xs pt-3">I'm a Brazilian with a curiosity and fascination for old technologies. I'm also a gamer who doesn't have much to say, but I can guarantee posts here on the blog. I'm in my early twenties, studying to be a full-stack developer, and I'm also dating the most beautiful woman in the whole world ♡ <br/>That's a summary of who I am :)</p>
-                                <div class="grid grid-cols-2 items-end">
-                                    <img src={creuBrasil} alt="" />
-                                    <img src={lovegf} class="" />
+                <Divmain>
+                    <div class="grid">
+                        <Container>
+                            <div class="flex flex-wrap justify-center p-5 gap-1">
+                                <div class="group group-hover:transition">
+                                    <div class="relative hidden group-hover:block ">
+                                        <img src={profilepic} class="rounded-[24rem] w-3xs" />
+                                        <img src={profileBorder} class="absolute inset-0" />
+                                    </div>
+                                    <div class="group-hover:hidden block">
+                                        <img src={profile} class="rounded-[20rem] w-3xs" />
+                                    </div>
                                 </div>
-                        </div>
-                        </div>    
+                                <div class="text-center p-3">
+                                    <h1 class="text-3xl">Hi There!</h1>
+                                    <p class="text-md pt-3">I'm Pedro (aka the blog owner), a twenty-something guy studying to be a Full-Stack developer. I’m a gamer and designer at heart—I love playing rogue-likes and platformers, and while I do dabble in competitive games, I’m honestly terrible at them LOL. I’m also in a relationship with the most beautiful woman in the world ♡. I have a huge thing for Y2K aesthetics, Frutiger Aero, and the old internet. <br />That’s a short summary of who I am—enjoy the blog! :)</p>
+                                    <div class="grid">
+                                        <img src={creuBrasil} alt="" />
+                                        <img src={lovegf} class="" />
+                                    </div>
+                                </div>
+                            </div>
+                        </Container>
+                        <Container></Container>
                     </div>
-                </div>
-            </div>
+                </Divmain>
             </LayoutWrapper>
         </div>
     )
