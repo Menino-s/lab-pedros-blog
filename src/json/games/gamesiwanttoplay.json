@@ -1,0 +1,8 @@
+[
+    {"title": "Banjo-Kazooie", "img": "./games/banjo.png", "year": "1998", "platform": "Nintendo 64"},
+    {"title": "Bombun", "img": "./games/bombun.png", "year": "2026", "platform": "PC"},
+    {"title": "Cuisineer", "img": "./games/cuisineer.png", "year": "2023", "platform": "PC"},
+    {"title": "Hey You, Pikachu!", "img": "./games/hyp.png", "year": "1998", "platform": "Nintendo 64"},
+    {"title": "Pokémon Pokopia", "img": "./games/pokopia.png", "year": "2026", "platform": "Nintendo Switch 2"},
+    {"title": "Ocarina of Time", "img": "./games/oot.png", "year": "1998", "platform": "Nintendo 64"}
+]

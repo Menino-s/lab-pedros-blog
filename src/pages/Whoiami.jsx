@@ -23,7 +23,7 @@ function WhoIam() {
                                     <h1 class="text-3xl">Hi There!</h1>
                                     <p class="text-md pt-3">I'm Pedro (aka the blog owner), a twenty-something guy studying to be a Full-Stack developer. I’m a gamer and designer at heart—I love playing rogue-likes and platformers, and while I do dabble in competitive games, I’m honestly terrible at them LOL. I’m also in a relationship with the most beautiful woman in the world ♡. I have a huge thing for Y2K aesthetics, Frutiger Aero, and the old internet. <br />That’s a short summary of who I am—enjoy the blog! :)</p>
                                     <div class="flex justify-between">
-                                        <div class="grid grid-cols-3 justify-center content-center">
+                                        <div class="grid grid-cols-2 justify-center content-center">
                                             <img src={lovegf} />
                                             <img src={oldTec}  />
                                             <img src={game}   />
