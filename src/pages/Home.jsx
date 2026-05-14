@@ -30,8 +30,8 @@ function Home() {
                         </Container>
                         <Container>
                           <h2 class="text-xl">Status Update</h2>
-                          <p class="text-xs text-gray-300/60">Posted 05/11/2026</p>
-                          <p>The website is up to date :D</p>
+                          <p class="text-xs text-gray-300/60">Posted 05/14/2026</p>
+                          <p>That's strange</p>
                         </Container>
                       </div>
                     </div>
