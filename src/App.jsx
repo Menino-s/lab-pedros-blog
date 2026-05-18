@@ -8,11 +8,13 @@ import FirtsPost from './posts/links-posts/Firtspost';
 import MusicBackground from './components/Music';
 import Background from './components/Background'
 import './App.css'
+import Stickers from './components/Stickers';
 
 function App() {
   return (
     <Router>
       <Background>
+      <Stickers/>
       <MusicBackground/>
       <Routes>
         <Route path="/" element={<Home />} />
