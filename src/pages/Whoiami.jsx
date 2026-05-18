@@ -1,11 +1,10 @@
-import { profile, profilepic, profileBorder, creuBrasil, lovegf, oldTec, game, music, cd, connected, website, argLiker, musical, brazil, kittys, } from "../assets"
+import { profile, profilepic, profileBorder, creuBrasil, lovegf, oldTec, game, music, cd, connected, website, argLiker, musical, brazil, kittys, miinormal, miihello } from "../assets/index"
 import LayoutWrapper from "../components/Background"
 import { Container, Divmain } from "../components"
 
 function WhoIam() {
     return (
-        <div >
-            <LayoutWrapper>    
+        <div >    
                 <Divmain>
                     <div class="grid ">
                         <Container>
@@ -44,7 +43,6 @@ function WhoIam() {
                         </Container>
                     </div>
                 </Divmain>
-            </LayoutWrapper>
         </div>
     )
 }

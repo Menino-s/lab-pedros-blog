@@ -1,9 +1,10 @@
 import { useState } from 'react';
 import ReactPlayer from 'react-player'
 import { Link } from 'react-router-dom'
-import { oldTec, game, music, cd, connected, website, argLiker, musical, brazil, kittys, paws, steam, wii, resolution, github, kitty } from '../assets';
+import { oldTec, game, music, cd, connected, website, argLiker, musical, brazil, kittys, paws, steam, wii, lambda, neko98, resolution, github, kitty, miinormal, miihello, meinmii, myblog } from '../assets';
 import { Divmain, LayoutWrapper, Container} from "../components"
 import Posts from '../posts/post.json'
+import MusicaFundo from '../components/Music';
 
 
 function Home() {
@@ -11,7 +12,6 @@ function Home() {
 
     return(
       <div>
-        <LayoutWrapper>
           <Divmain>
             <div class="grid lg:grid-cols-2 gap-3 content-baseline">
               <section class="grid gap-1 content-baseline left_div">
@@ -81,11 +81,15 @@ function Home() {
                         <img src={brazil}  />
                         <img src={kittys}  />
                     </div>
-                    <div class="flex justify-center gap-1 p-2 min-w-8 content-center">
+                    <div class="grid grid-cols-4 justify-center gap-0.5 p-2 min-w-8 content-center">
                         <a href="https://steamcommunity.com/id/pdrinme/"><img src={steam} /></a>
                         <a href="https://github.com/pdrinme"><img src={github}  /></a>
                         <img src={resolution}  />
                         <img src={paws}  />
+                        <img src={myblog}  />
+                        <img src={lambda}  />
+                        <img src={wii}  />
+                        <img src={neko98}  />
                     </div>
                     </Container>
                     <Container>
@@ -101,14 +105,18 @@ function Home() {
                     </Container>
                     <div class="chat_div and game_div">
                       <div class="chat_div pb-2">
-                        <iframe src="https://www3.cbox.ws/box/?boxid=3554800&boxtag=VN9wkA" class="xs:h-50 lg:h-37.5" width="100%" allowtransparency="yes" allow="autoplay" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>	
+                        <iframe src="https://www3.cbox.ws/box/?boxid=3554800&boxtag=VN9wkA" class="xs:h-50 lg:h-60" width="100%" allowtransparency="yes" allow="autoplay" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>	
                       </div>
-                    <div class="flex xs:hidden lg:flex">
-                      <img src={kitty} class="h-75" />
-                      <div class="relative xs:hidden lg:block">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Speech_bubble.svg/3840px-Speech_bubble.svg.png" class="" />
-                        <p class="top-131 left-267 fixed text-md">Why don't you <br/> talk to Cake?</p>
-                      </div>
+                    <div class="rounded-2xl bg-[url(https://cdn2.steamgriddb.com/hero/47ce0875420b2dbacfc5535f94e68433.png)] border-4 border-gray-500/70">
+                            <div class="">
+                              <div class="rounded-xl bg-gray-300/80 backdrop-blur-2xl inset-shadow-sm inset-shadow-white/40 flex justify-center p-2">
+                                <img src={meinmii} class="w-45" />
+                              </div>
+                                <div class="group flex justify-center ">
+                                    <img src={miinormal} class="w-80 block group-hover:hidden" />
+                                    <img src={miihello} class="w-80 hidden group-hover:block" />
+                                </div>
+                            </div>
                     </div>
                     </div>
                     <Container class="cutepic_div">
@@ -118,7 +126,6 @@ function Home() {
               </section>
             </div>
           </Divmain>
-          </LayoutWrapper>
       </div>
     )
 }

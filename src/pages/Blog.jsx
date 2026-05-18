@@ -8,13 +8,12 @@ function Blog() {
 
     return(
       <div>
-        <LayoutWrapper>
           <Divmain>
             <h1 class="text-center text-2xl text-white text-shadow-2xs/40 text-shadow-black p-3">Recently posts</h1>
             <div class="grid lg:grid-cols-3 sm:grid-cols-none gap-3 p-3">
               {
                 Posts.map((posts, i) => (
-                  <div class="post w-auto max-w-xl p-3 bg-white rounded-2xl shadow-xl/30 gap-6 inset-shadow-sm inset-shadow-white/40 dark:bg-[#181a1b] dark:text-white">
+                  <div class="post w-auto max-w-xl p-3 bg-white/50 rounded-2xl shadow-xl/30 gap-6 inset-shadow-sm inset-shadow-white/40 dark:bg-[#181a1b]/50 dark:text-white">
                     <Animated>
                       {posts.video && (
                         <div class="relative w-full h-70 rounded-2xl overflow-hidden">
@@ -32,7 +31,6 @@ function Blog() {
               }
             </div>
           </Divmain>
-        </LayoutWrapper>
     </div>
     )
 }

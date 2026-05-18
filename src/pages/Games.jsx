@@ -8,7 +8,6 @@ function Games() {
 
     return(
       <div>
-        <LayoutWrapper>
           <Divmain>
             <div class="grid lg:grid-cols-2 gap-3">
               <Container>
@@ -74,7 +73,6 @@ function Games() {
               </Container>
             </div>
           </Divmain>
-        </LayoutWrapper>
     </div>
     )
 }
