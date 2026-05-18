@@ -100,12 +100,12 @@ function Home() {
                     <Container>
                       <h3 class="text-center  text-xl">Songs I've been listening to this week</h3>
                       <div class="relative lg:h-50 xs:h-25 w-full">
-                        <img src="https://i.scdn.co/image/ab67616d0000b273692200d20ace9f3500171527" class="absolute left-1/2 top-0 -translate-x-1/2 z-20 lg:max-w-55 xs:max-w-25" />
+                        <img src="https://akamai.sscdn.co/uploadfile/letras/albuns/2/e/d/c/1317101728465098.jpg" class="absolute left-1/2 top-0 -translate-x-1/2 z-20 lg:max-w-55 xs:max-w-25" />
                         <img src={cd} class="absolute lg:left-36 xs:left-43 top-4 z-10 lg:max-w-50 xs:max-w-20 animate-spin" />
                       </div>
                       <div class="pt-6">
-                        <h4 class=" text-xl text-center">Snaker Eater</h4>
-                        <p class=" text-sm text-center">Cynthia Harrell</p>
+                        <h4 class=" text-xl text-center">Furto & Louvor</h4>
+                        <p class=" text-sm text-center">MC V.V</p>
                       </div>
                     </Container>
                     <div class="chat_div and game_div">
