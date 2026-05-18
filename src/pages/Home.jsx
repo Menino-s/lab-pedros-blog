@@ -29,9 +29,9 @@ function Home() {
                           <p class="dark:text-gray-200 text-black text-md p-2 pt-">Cake is the mascot of my website! Remember to treat her very well; she always tells me everything that happens here when I'm not around. Be nice to her, pet her, and don't forget to feed her when you come here :)</p>
                         </Container>
                         <Container>
-                          <h2 class="text-xl">Status Update</h2>
-                          <p class="text-xs text-gray-300/60">Posted 05/14/2026</p>
-                          <p>That's strange</p>
+                            <h2 class="text-xl">Status Update</h2>
+                            <p class="text-xs text-gray-300/60">Posted 05/18/2026</p>
+                            <p>Very Happy &gt;ᴗ&lt;</p>
                         </Container>
                       </div>
                     </div>
@@ -61,6 +61,11 @@ function Home() {
                             <p class="text-md text-center">The Legend of Zelda: Ocarina of Time</p>
                           </div>
                         </div>
+                      </Container>
+                    </div>
+                    <div class="flex justify-center">
+                      <Container>
+                        <img src="https://count.getloli.com/@pianobug?name=pianobug&theme=booru-vp&padding=7&offset=0&align=top&scale=1&pixelated=1&darkmode=auto" alt=":pianobug" />
                       </Container>
                     </div>
               </section>
