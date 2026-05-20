@@ -98,7 +98,7 @@ function Home() {
                     </div>
                     </Container>
                     <Container>
-                      <h3 class="text-center  text-xl">Songs I've been listening to this week</h3>
+                      <h3 class="text-center  text-xl">Song Most Played Tracker</h3>
                       <div class="relative lg:h-50 xs:h-25 w-full">
                         <img src="https://akamai.sscdn.co/uploadfile/letras/albuns/2/e/d/c/1317101728465098.jpg" class="absolute left-1/2 top-0 -translate-x-1/2 z-20 lg:max-w-55 xs:max-w-25" />
                         <img src={cd} class="absolute lg:left-36 xs:left-43 top-4 z-10 lg:max-w-50 xs:max-w-20 animate-spin" />
@@ -110,14 +110,17 @@ function Home() {
                     </Container>
                     <div class="chat_div and game_div">
                       <div class="chat_div pb-2">
-                        <iframe src="https://www3.cbox.ws/box/?boxid=3554800&boxtag=VN9wkA" class="xs:h-50 lg:h-60" width="100%" allowtransparency="yes" allow="autoplay" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>	
+                        <Container>
+                          <h3 class="text-center text-xl text-shadow-2xs/60 text-shadow-black">Chat</h3>
+                          <iframe src="https://www3.cbox.ws/box/?boxid=3554800&boxtag=VN9wkA" class="xs:h-50 lg:h-60" width="100%" allowtransparency="yes" allow="autoplay" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>	
+                        </Container>
                       </div>
                     <div class="rounded-2xl bg-[url(https://cdn2.steamgriddb.com/hero/47ce0875420b2dbacfc5535f94e68433.png)] border-4 border-gray-500/70">
                             <div class="">
                               <div class="rounded-xl bg-gray-300/80 backdrop-blur-2xl inset-shadow-sm inset-shadow-white/40 flex justify-center p-2">
                                 <img src={meinmii} class="w-45" />
                               </div>
-                                <div class="group flex justify-center ">
+                                <div class="group flex justify-center transition">
                                     <img src={miinormal} class="w-80 block group-hover:hidden" />
                                     <img src={miihello} class="w-80 hidden group-hover:block" />
                                 </div>
@@ -125,8 +128,13 @@ function Home() {
                     </div>
                     </div>
                     <Container class="cutepic_div">
-                      <p class="text-center text-md  text-shadow-2xs/60 text-shadow-black">Cute pic of Pokémon's!</p>
-                      <img src="https://i.pinimg.com/736x/a8/c4/6f/a8c46fc35a818a340049369e26e5de7b.jpg" class="border-4 border-amber-200/40 rounded-3xl" />
+                      <p class="text-center text-md text-shadow-2xs/60 text-shadow-black">Contact? <br/><span class="text-center text-xs text-shadow-2xs/60 text-shadow-black">(I dunno, maybe won't reply)</span></p>
+                      <div class="grid gap-3 p-4 text-center">
+                        <a href="mailto:pedro.menino.carlos@gmail.com" class="flex justify-items-center gap-2.5 p-1.5 bg-green-800 rounded-xl shadow-xl/15 font-comicsans inset-shadow-sm inset-shadow-white/80 transition hover:scale-115 hover:shadow-xl/50 hover:bg-green-800/60 text-white"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Email_Shiny_Icon.svg/330px-Email_Shiny_Icon.svg.png" class="h-10" /> Email</a>
+                        <a href="https://www.instagram.com/pdrinme/" class="flex justify-items-center gap-2.5 p-1.5 bg-green-800 rounded-xl shadow-xl/15 font-comicsans inset-shadow-sm inset-shadow-white/80 transition hover:scale-115 hover:shadow-xl/50 hover:bg-green-800/60 text-white"><img src="https://i.redd.it/n50b6goja95d1.png" class="h-10 rounded-xl" /> Instagram</a>
+                        <a href="https://x.com/pdrinme" class="flex justify-items-center gap-2.5 p-1.5 bg-green-800 rounded-xl shadow-xl/15 font-comicsans inset-shadow-sm inset-shadow-white/80 transition hover:scale-115 hover:shadow-xl/50 hover:bg-green-800/60 text-white"><img src="https://i.redd.it/a-collection-of-some-of-my-skeuomorphic-icons-v0-z11v3xc5guad1.png?width=1675&format=png&auto=webp&s=c7d796e88c6caf356734a3eb227962282e8203bd" class="h-10 rounded-xl" /> X (Formerly called Twitter)</a>
+                        <a href="/404" class="relative group flex justify-items-center gap-2.5 p-1.5 bg-green-800 rounded-xl shadow-xl/15 font-comicsans inset-shadow-sm inset-shadow-white/80 transition hover:scale-115 hover:shadow-xl/50 hover:bg-red-800/60 text-white"><img src="https://i.redd.it/7tjlv2zxisaf1.png" class="h-10 rounded-xl grayscale-0 group-hover:grayscale-100" /> Discord <span class="rotate-12 absolute top-3 right-0.5 border-2 border-red-900/40 bg-yellow-500 hidden group-hover:block transition group-hover:border-4 group-hover:bg-red-900 rounded-xl p-0.5">Out of stock</span></a>
+                      </div>
                     </Container>
               </section>
             </div>

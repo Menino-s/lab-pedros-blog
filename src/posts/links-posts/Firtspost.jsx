@@ -9,7 +9,6 @@ function FirtsPost() {
 
     return(
       <div>
-        <LayoutWrapper>
         <div class="z-10">
           <section class="grid min-h-screen content-around">
             <div class="grid justify-center  gap-3 p-3">
@@ -24,7 +23,6 @@ function FirtsPost() {
             </div>
         </section>
         </div>
-        </LayoutWrapper>
     </div>
     )
 }
