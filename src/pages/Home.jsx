@@ -35,8 +35,8 @@ function Home() {
                             <Container>
                               <div class="h-30">
                                 <h2 class="text-2xl">Status Update</h2>
-                                <p class="text-xs text-gray-300/60">Posted 05/26/2026</p>
-                                <p class="text-md p-1">kind of meh ¬_¬</p>
+                                <p class="text-xs text-gray-300/60">Posted 06/05/2026</p>
+                                <p class="text-md p-1">uncrumble</p>
                               </div>
                             </Container>
                           </div>
