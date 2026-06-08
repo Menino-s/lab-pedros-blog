@@ -2,7 +2,7 @@ import Animated from "./Animated";
 
 const Container = ({ children }) => {
   return (
-    <div class="bg-white/50 dark:bg-[#181a1b]/50 backdrop-blur-2xl inset-shadow-sm inset-shadow-white/40 rounded-2xl p-2 self-baseline overflow-hidden z-20">
+    <div class="bg-green-800/10 backdrop-blur-2xl inset-shadow-sm inset-shadow-white rounded-2xl p-2 self-baseline overflow-hidden z-20 drop-shadow-2xl drop-shadow-green-800/80">
       <Animated>
         {children}
       </Animated>

@@ -21,7 +21,11 @@ function Home() {
                     </Container>
                     <div class="lg:flex p-2 gap-3 cake_div">
                       <div class="p-2 xs:grid xs:justify-center">
-                        <iframe class="bg-white border-4 rounded-xl border-green-200/30" width="314" height="321" scrolling="no" src="https://gifypet.neocities.org/pet/pet.html?name=Cake&dob=1777655291&gender=f&element=Earth&pet=https%3A%2F%2Fimg.pokemondb.net%2Fsprites%2Fblack-white%2Fanim%2Fnormal%2Fpikachu-f.gif&map=https%3A%2F%2Fimages.stockcake.com%2Fpublic%2F9%2F7%2F9%2F97908976-dccf-4bdf-8f66-81f787b0c28e_medium%2Fenchanted-forest-path-stockcake.jpg&background=&tablecolor=%23529d32&textcolor=black" frameborder="0"></iframe>
+                        <div>
+                          <Container>
+                            <iframe class="bg-white border-4 rounded-xl border-green-200/30" width="314" height="321" scrolling="no" src="https://gifypet.neocities.org/pet/pet.html?name=Cake&dob=1777655291&gender=f&element=Earth&pet=https%3A%2F%2Fimg.pokemondb.net%2Fsprites%2Fblack-white%2Fanim%2Fnormal%2Fpikachu-f.gif&map=https%3A%2F%2Fimages.stockcake.com%2Fpublic%2F9%2F7%2F9%2F97908976-dccf-4bdf-8f66-81f787b0c28e_medium%2Fenchanted-forest-path-stockcake.jpg&background=&tablecolor=%23529d32&textcolor=black" frameborder="0"></iframe>
+                          </Container>
+                        </div>
                       </div>
                       <div class="grid content-baseline">
                         <div class="grid gap-11">
@@ -35,8 +39,8 @@ function Home() {
                             <Container>
                               <div class="h-30">
                                 <h2 class="text-2xl">Status Update</h2>
-                                <p class="text-xs text-gray-300/60">Posted 06/05/2026</p>
-                                <p class="text-md p-1">uncrumble</p>
+                                <p class="text-xs text-gray-300/60">Posted 06/08/2026</p>
+                                <p class="text-md p-1">speechless</p>
                               </div>
                             </Container>
                           </div>
@@ -108,12 +112,12 @@ function Home() {
                     <Container>
                       <h3 class="text-center  text-xl">Song Most Played Tracker</h3>
                       <div class="relative lg:h-50 xs:h-25 w-full">
-                        <img src="https://akamai.sscdn.co/uploadfile/letras/albuns/2/e/d/c/1317101728465098.jpg" class="absolute left-1/2 top-0 -translate-x-1/2 z-20 lg:max-w-55 xs:max-w-25" />
+                        <img src="https://i.scdn.co/image/ab67616d0000b27335f36cb686b0d5a12ab3a9f0" class="absolute left-1/2 top-0 -translate-x-1/2 z-20 lg:max-w-55 xs:max-w-25" />
                         <img src={cd} class="absolute lg:left-36 xs:left-43 top-4 z-10 lg:max-w-50 xs:max-w-20 animate-spin" />
                       </div>
                       <div class="pt-6">
-                        <h4 class=" text-xl text-center">Furto & Louvor</h4>
-                        <p class=" text-sm text-center">MC V.V</p>
+                        <h4 class=" text-xl text-center">Chicago</h4>
+                        <p class=" text-sm text-center">Michael Jackson</p>
                       </div>
                     </Container>
                     <div class="chat_div and game_div">
@@ -123,17 +127,19 @@ function Home() {
                           <iframe src="https://www3.cbox.ws/box/?boxid=3554800&boxtag=VN9wkA" class="xs:h-50 lg:h-60" width="100%" allowtransparency="yes" allow="autoplay" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>	
                         </Container>
                       </div>
-                    <div class="rounded-2xl bg-[url(https://cdn2.steamgriddb.com/hero/47ce0875420b2dbacfc5535f94e68433.png)] border-4 border-gray-500/70">
-                            <div class="">
-                              <div class="rounded-xl bg-gray-300/80 backdrop-blur-2xl inset-shadow-sm inset-shadow-white/40 flex justify-center p-2">
-                                <img src={meinmii} class="w-45" />
-                              </div>
-                                <div class="group flex justify-center transition overflow-hidden">
-                                    <img src={miinormal} class="w-80 block group-hover:hidden" />
-                                    <img src={miihello} class="w-80 hidden group-hover:block group-hover:scale-105" />
-                                </div>
+                      <div>
+                        <Container>
+                          <div class="rounded-2xl bg-[url(https://cdn2.steamgriddb.com/hero/47ce0875420b2dbacfc5535f94e68433.png)] border-4 border-gray-500/70">
+                            <div class="rounded-xl bg-gray-300/80 backdrop-blur-2xl inset-shadow-sm inset-shadow-white/40 flex justify-center p-2">
+                              <img src={meinmii} class="w-45" />
                             </div>
-                    </div>
+                            <div class="group flex justify-center transition overflow-hidden">
+                                <img src={miinormal} class="w-80 block group-hover:hidden" />
+                                <img src={miihello} class="w-80 hidden group-hover:block group-hover:scale-105" />
+                            </div>
+                          </div>
+                        </Container>
+                      </div>
                     </div>
                     <div class="grid lg:gap-9 xs:gap-0.5">
                       <div>
