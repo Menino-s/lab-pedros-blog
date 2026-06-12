@@ -11,6 +11,7 @@ import Background from './components/Background'
 import './App.css'
 import Stickers from './components/Stickers';
 
+
 function App() {
   return (
     <Router>
