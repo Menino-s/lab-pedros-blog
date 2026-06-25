@@ -50,14 +50,9 @@ function Home() {
                     <div class="grid lg:grid-cols-2 p-2 gap-3 momento_div">
                       <Container>
                         <h2 class="text-xl">Games I've been playing!</h2>
-                        <div class="flex p-4 gap-2">
-                          <div>
-                            <img src="https://cdn2.steamgriddb.com/thumb/41dfccda9b5b255be17050bf5fb959f3.png" class="w-40 h-60" />
-                            <p class="text-md text-center">Team Fortress 2</p>
-                          </div>
-                          <div>
-                            <img src="https://cdn2.steamgriddb.com/thumb/40a6038002e256e8ade0a4f29a98e616.jpg" class="w-40 h-60" />
-                            <p class="text-md text-center">Pokémon White Version</p>
+                        <div class="flex p-4 gap-2 justify-center">
+                          <div class="h-72 grid items-center">
+                            <p class="text-md text-center">playing very little</p>
                           </div>
                         </div>
                       </Container>
