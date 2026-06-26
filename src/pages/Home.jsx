@@ -39,8 +39,8 @@ function Home() {
                             <Container>
                               <div class="h-30">
                                 <h2 class="text-2xl">Status Update</h2>
-                                <p class="text-xs text-gray-300/60">Posted 06/08/2026</p>
-                                <p class="text-md p-1">speechless</p>
+                                <p class="text-xs text-gray-300/60">Posted 06/26/2026</p>
+                                <p class="text-md p-1">Just keeping at it, but taking it easy.</p>
                               </div>
                             </Container>
                           </div>
@@ -150,7 +150,9 @@ function Home() {
                       </div>
                       <div>
                         <Container>
-                          <img src="https://cdn.dribbble.com/userupload/22148904/file/original-56b19720d83b146e748d69554e264aff.jpg?resize=752x&vertical=center" class="rounded-xl" />
+                          <h3 class="text-center text-xl text-shadow-2xs/60 text-shadow-black">Random Pics </h3>
+                          <p class="text-xs text-gray-300/60 text-center pb-2">(update from time to time)</p>
+                          <img src="https://i.pinimg.com/736x/11/81/fc/1181fce38a988324c54b7849936440f3.jpg" class="rounded-xl" />
                         </Container>
                       </div>
                     </div>
