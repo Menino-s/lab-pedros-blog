@@ -5,6 +5,7 @@ import WhoIam from './pages/Whoiami';
 import Games from './pages/Games';
 import NotFound from "./pages/Notfound";
 import FirtsPost from './posts/links-posts/Firtspost';
+import PlayedMarcelo from './posts/links-posts/PlayedMarcelo';
 import Arts from "./pages/Arts";
 import MusicBackground from './components/Music';
 import Background from './components/Background'
@@ -25,6 +26,7 @@ function App() {
         <Route path='/arts' element={<Arts />} />
         <Route path='/games' element={<Games />} />
         <Route path='/firtspost' element={<FirtsPost />} />
+        <Route path='/playmarcelo' element={<PlayedMarcelo />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       </Background>

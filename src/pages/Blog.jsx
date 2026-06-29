@@ -13,7 +13,7 @@ function Blog() {
             <div class="grid lg:grid-cols-3 sm:grid-cols-none gap-3 p-3">
               {
                 Posts.map((posts, i) => (
-                  <div class="post w-auto max-w-xl p-3 bg-white/50 rounded-2xl shadow-xl/30 gap-6 inset-shadow-sm inset-shadow-white/40 dark:bg-[#181a1b]/50 dark:text-white">
+                  <div class="post w-auto max-w-xl p-3 rounded-2xl shadow-xl/30 gap-6 inset-shadow-sm inset-shadow-white/40 bg-[#181a1b]/50 text-white">
                     <Animated>
                       {posts.video && (
                         <div class="relative w-full h-70 rounded-2xl overflow-hidden">
