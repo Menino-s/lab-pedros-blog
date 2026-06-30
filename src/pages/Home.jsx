@@ -17,7 +17,7 @@ function Home() {
               <section class="grid gap-1 content-baseline left_div">
                     <Container>
                       <h1 class="text-2xl text-center">Welcome to my Blog!</h1>
-                      <p class="dark:text-gray-200 text-black text-md p-2 pt-0">Hi, this is my old internet blog, a little corner where I always try to make some posts or just stay. I'm not from the blogging era, but one day I stopped and thought, "Why can't I have my own blog?" Is it too old-fashioned for me? You bet it is, but I don't mind. I love that old internet aesthetic, so I've adopted it here :)</p>
+                      <p class="text-gray-200 text-md p-2 pt-0">Hi, this is my old internet blog, a little corner where I always try to make some posts or just stay. I'm not from the blogging era, but one day I stopped and thought, "Why can't I have my own blog?" Is it too old-fashioned for me? You bet it is, but I don't mind. I love that old internet aesthetic, so I've adopted it here :)</p>
                     </Container>
                     <div class="lg:flex p-2 gap-3 cake_div">
                       <div class="p-2 xs:grid xs:justify-center">
@@ -32,7 +32,7 @@ function Home() {
                           <div>
                             <Container>
                               <h2 class="text-xl">This is the cake!</h2>
-                              <p class="dark:text-gray-200 text-black text-md p-2 pt-">Cake is the mascot of my website! Remember to treat her very well; she always tells me everything that happens here when I'm not around. Be nice to her, pet her, and don't forget to feed her when you come here :)</p>
+                              <p class="text-gray-200 text-md p-2 pt-">Cake is the mascot of my website! Remember to treat her very well; she always tells me everything that happens here when I'm not around. Be nice to her, pet her, and don't forget to feed her when you come here :)</p>
                             </Container>
                           </div>
                           <div>
