@@ -1,6 +1,7 @@
 import { profile, profilepic, profileBorder, creuBrasil, lovegf, oldTec, game, music, cd, connected, website, argLiker, musical, brazil, kittys, miinormal, miihello } from "../assets/index"
 import LayoutWrapper from "../components/Background"
 import { Container, Divmain } from "../components"
+import profilepicLamb from "../assets/profilePicLamb.webp"
 
 function WhoIam() {
     return (
@@ -11,11 +12,11 @@ function WhoIam() {
                             <div class="flex flex-wrap justify-center p-5 gap-1">
                                 <div class="group group-hover:transition">
                                     <div class="relative hidden group-hover:block">
-                                        <img src={profilepic} class="rounded-[24rem] w-3xs " />
                                         <img src={profileBorder} class="absolute inset-0" />
+                                        <img src={profile} class="rounded-[20rem] w-3xs" />
                                     </div>
                                     <div class="group-hover:hidden block">
-                                        <img src={profile} class="rounded-[20rem] w-3xs" />
+                                        <img src={profilepicLamb} class=" w-3xs " />
                                     </div>
                                 </div>
                                 <div class="text-center p-3">
