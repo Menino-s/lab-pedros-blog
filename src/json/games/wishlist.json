@@ -1,7 +1,6 @@
 [
     {"title": "Bombun", "img": "./games/bombun.png", "year": "2026", "platform": "PC"},
     {"title": "Cuisineer", "img": "./games/cuisineer.png", "year": "2023", "platform": "PC"},
-    {"title": "Cotl: Woolhaven", "img": "./games/cotl_wh.jpg", "year": "2024", "platform": "PC"},
     {"title": "Dead as Disco", "img": "./games/dad.png", "year": "2026", "platform": "PC"},
     {"title": "Haste", "img": "./games/haste.jpg", "year": "2025", "platform": "PC"},
     {"title": "Killing Floor 3", "img": "./games/kf3.png", "year": "2025", "platform": "PC"},
