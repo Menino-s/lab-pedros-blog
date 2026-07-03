@@ -1,4 +1,4 @@
-import { LayoutWrapper, Divmain, Container } from '../components'
+import { Divmain, Container } from '../components'
 import gamesiplayed from '../json/games/gamesiplayed.json'
 import gamesiplay from '../json/games/gamesiplay.json'
 import gamesiwanttoplay from '../json/games/gamesiwanttoplay.json'
@@ -7,7 +7,7 @@ import wishlist from '../json/games/wishlist.json'
 function Games() {
 
     return(
-      <div>
+      <>
           <Divmain>
             <div class="grid lg:grid-cols-2 gap-3">
               <Container>
@@ -73,7 +73,7 @@ function Games() {
               </Container>
             </div>
           </Divmain>
-    </div>
+    </>
     )
 }
 

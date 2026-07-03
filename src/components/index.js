@@ -3,3 +3,6 @@ export { default as Container } from './Container.jsx';
 export { default as Divmain } from './Divmain.jsx';
 export { default as Animated } from './Animated.jsx';
 export { default as Counter } from './Counter.jsx'
+export { default as Background } from './Background.jsx'
+export { default as MusicBackground } from './Music.jsx'
+export { default as Stickers } from './Stickers.jsx'

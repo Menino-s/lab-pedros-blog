@@ -1,16 +1,9 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from './pages/Home';
-import Blog from './pages/Blog';
-import WhoIam from './pages/Whoiami';
-import Games from './pages/Games';
-import NotFound from "./pages/Notfound";
+import { Home, Blog, WhoIam, Books, Arts, Games, NotFound } from './pages';
 import FirtsPost from './posts/links-posts/Firtspost';
 import PlayedMarcelo from './posts/links-posts/PlayedMarcelo';
-import Arts from "./pages/Arts";
-import MusicBackground from './components/Music';
-import Background from './components/Background'
+import { Background, Stickers, MusicBackground } from './components';
 import './App.css'
-import Stickers from './components/Stickers';
 
 
 function App() {
@@ -23,6 +16,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path='/blog' element={<Blog />}/>
         <Route path='/whoiam' element={<WhoIam />} />
+        <Route path='/books' element={<Books />} />
         <Route path='/arts' element={<Arts />} />
         <Route path='/games' element={<Games />} />
         <Route path='/firtspost' element={<FirtsPost />} />

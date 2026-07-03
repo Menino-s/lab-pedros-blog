@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom'
 function Blog() {
 
     return(
-      <div>
+      <>
           <Divmain>
             <h1 class="text-center text-2xl text-white text-shadow-2xs/40 text-shadow-black p-3">Recently posts</h1>
             <div class="grid lg:grid-cols-3 sm:grid-cols-none gap-3 p-3">
@@ -33,7 +33,7 @@ function Blog() {
               }
             </div>
           </Divmain>
-    </div>
+    </>
     )
 }
 

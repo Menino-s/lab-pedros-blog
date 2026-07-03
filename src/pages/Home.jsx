@@ -1,17 +1,11 @@
-import { useState } from 'react';
-import ReactPlayer from 'react-player'
-import { Link } from 'react-router-dom'
 import { oldTec, game, music, cd, connected, website, argLiker, musical, brazil, kittys, paws, steam, wii, lambda, neko98, resolution, github, kitty, miinormal, miihello, meinmii, myblog } from '../assets';
-import { Divmain, LayoutWrapper, Container} from "../components"
-import Posts from '../posts/post.json'
-import MusicaFundo from '../components/Music';
+import { Divmain, Container } from "../components"
 
 
 function Home() {
-  const [isLoaded, setIsLoaded] = useState(false);
 
     return(
-      <div>
+      <>
           <Divmain>
             <div class="grid lg:grid-cols-2 gap-3 content-baseline">
               <section class="grid gap-1 content-baseline left_div">
@@ -160,7 +154,7 @@ function Home() {
               </section>
             </div>
           </Divmain>
-      </div>
+      </>
     )
 }
 

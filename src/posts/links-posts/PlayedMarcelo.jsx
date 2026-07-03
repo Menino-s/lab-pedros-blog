@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactPlayer from 'react-player'
-import { Divmain, LayoutWrapper, Container} from "../../components"
+import { Divmain, Container } from "../../components"
 
 
 function PlayedMarcelo() {
