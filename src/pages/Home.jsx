@@ -10,14 +10,14 @@ function Home() {
             <div class="grid lg:grid-cols-2 gap-3 content-baseline">
               <section class="grid gap-1 content-baseline left_div">
                     <Container>
-                      <h1 class="text-2xl text-center">Welcome to my Cult!</h1>
-                      <p class="text-gray-200 text-md p-2 pt-0">Hi, this is my old-school blog—my little corner. I have no idea what that other message was about, but I own this site now, and no heretic can pass himself off as a God like me; so, long live the Lamb, and welcome to my cult :)</p>
+                      <h1 class="text-2xl text-center">Welcome to my Blog!</h1>
+                      <p class="text-gray-200 text-md p-2 pt-0">i, this is my old internet blog, a little corner where I always try to make some posts or just stay. I'm not from the blogging era, but one day I stopped and thought, "Why can't I have my own blog?" Is it too old-fashioned for me? You bet it is, but I don't mind. I love that old internet aesthetic, so I've adopted it here :)</p>
                     </Container>
                     <div class="lg:flex p-2 gap-3 cake_div">
                       <div class="p-2 xs:grid xs:justify-center">
                         <div>
                           <Container>
-                            <iframe class="bg-white border-4 rounded-xl border-red-200/30" width="314" height="321" scrolling="no" src="https://gify.pet/pet/pet.html?name=Cake&dob=1782924909&gender=f&element=Earth&pet=https%3A%2F%2Fpreview.redd.it%2Fpatch-notes-1-1-5-v0-f8awrb2dfcsa1.gif%3Fwidth%3D194%26auto%3Dwebp%26s%3D34ea76918584d5b33804319d1ec59a0bf9b48914&map=tree.jpg&background=&tablecolor=black&textcolor=black" frameborder="0"></iframe>
+                            <iframe class="bg-white border-4 rounded-xl border-green-200/30" width="314" height="321" scrolling="no" src="https://gifypet.neocities.org/pet/pet.html?name=Cake&dob=1777655291&gender=f&element=Earth&pet=https%3A%2F%2Fimg.pokemondb.net%2Fsprites%2Fblack-white%2Fanim%2Fnormal%2Fpikachu-f.gif&map=https%3A%2F%2Fimages.stockcake.com%2Fpublic%2F9%2F7%2F9%2F97908976-dccf-4bdf-8f66-81f787b0c28e_medium%2Fenchanted-forest-path-stockcake.jpg&background=&tablecolor=%23529d32&textcolor=black" frameborder="0"></iframe>
                           </Container>
                         </div>
                       </div>
@@ -26,7 +26,7 @@ function Home() {
                           <div>
                             <Container>
                               <h2 class="text-xl">This is the cake!</h2>
-                              <p class="text-gray-200 text-md p-2 pt-">Cake is one of the followers of my cult! she always tells me everything that happens here when I'm not around. Be nice to her, pet her, and don't forget to feed her when you come here :) or else I'll break you</p>
+                              <p class="text-gray-200 text-md p-2 pt-">Cake is the mascot of my website! Remember to treat her very well; she always tells me everything that happens here when I'm not around. Be nice to her, pet her, and don't forget to feed her when you come here :)</p>
                             </Container>
                           </div>
                           <div>
@@ -136,10 +136,10 @@ function Home() {
                         <Container class="cutepic_div">
                           <p class="text-center text-md text-shadow-2xs/60 text-shadow-black">Contact? <br/><span class="text-center text-xs text-shadow-2xs/60 text-shadow-black">(I dunno, maybe won't reply)</span></p>
                           <div class="grid gap-3 p-4 text-center">
-                            <a href="mailto:pedro.menino.carlos@gmail.com" class="flex justify-items-center gap-2.5 p-1.5 bg-red-800 rounded-xl shadow-xl/15 font-comicsans inset-shadow-sm inset-shadow-white/80 transition hover:scale-115 hover:shadow-xl/50 hover:bg-red-800/60 text-white"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Email_Shiny_Icon.svg/330px-Email_Shiny_Icon.svg.png" class="h-10" /> Email</a>
-                            <a href="https://www.instagram.com/pdrinme/" class="flex justify-items-center gap-2.5 p-1.5 bg-red-800 rounded-xl shadow-xl/15 font-comicsans inset-shadow-sm inset-shadow-white/80 transition hover:scale-115 hover:shadow-xl/50 hover:bg-red-800/60 text-white"><img src="https://i.redd.it/n50b6goja95d1.png" class="h-10 rounded-xl" /> Instagram</a>
-                            <a href="https://x.com/pdrinme" class="flex justify-items-center gap-2.5 p-1.5 bg-red-800 rounded-xl shadow-xl/15 font-comicsans inset-shadow-sm inset-shadow-white/80 transition hover:scale-115 hover:shadow-xl/50 hover:bg-red-800/60 text-white"><img src="https://i.redd.it/a-collection-of-some-of-my-skeuomorphic-icons-v0-z11v3xc5guad1.png?width=1675&format=png&auto=webp&s=c7d796e88c6caf356734a3eb227962282e8203bd" class="h-10 rounded-xl" /> X (Formerly called Twitter)</a>
-                            <a href="/404" class="relative group flex justify-items-center gap-2.5 p-1.5 bg-red-800 rounded-xl shadow-xl/15 font-comicsans inset-shadow-sm inset-shadow-white/80 transition hover:scale-115 hover:shadow-xl/50 hover:bg-red-800/60 text-white"><img src="https://i.redd.it/7tjlv2zxisaf1.png" class="h-10 rounded-xl grayscale-0 group-hover:grayscale-100" /> Discord <span class="rotate-12 absolute top-3 right-0.5 border-2 border-red-900/40 hidden group-hover:block transition group-hover:bg-red-900 rounded-xl p-0.5">Out of stock</span></a>
+                            <a href="mailto:pedro.menino.carlos@gmail.com" class="flex justify-items-center gap-2.5 p-1.5 bg-green-800 rounded-xl shadow-xl/15 font-comicsans inset-shadow-sm inset-shadow-white/80 transition hover:scale-115 hover:shadow-xl/50 hover:bg-green-800/60 text-white"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Email_Shiny_Icon.svg/330px-Email_Shiny_Icon.svg.png" class="h-10" /> Email</a>
+                            <a href="https://www.instagram.com/pdrinme/" class="flex justify-items-center gap-2.5 p-1.5 bg-green-800 rounded-xl shadow-xl/15 font-comicsans inset-shadow-sm inset-shadow-white/80 transition hover:scale-115 hover:shadow-xl/50 hover:bg-green-800/60 text-white"><img src="https://i.redd.it/n50b6goja95d1.png" class="h-10 rounded-xl" /> Instagram</a>
+                            <a href="https://x.com/pdrinme" class="flex justify-items-center gap-2.5 p-1.5 bg-green-800 rounded-xl shadow-xl/15 font-comicsans inset-shadow-sm inset-shadow-white/80 transition hover:scale-115 hover:shadow-xl/50 hover:bg-green-800/60 text-white"><img src="https://i.redd.it/a-collection-of-some-of-my-skeuomorphic-icons-v0-z11v3xc5guad1.png?width=1675&format=png&auto=webp&s=c7d796e88c6caf356734a3eb227962282e8203bd" class="h-10 rounded-xl" /> X (Formerly called Twitter)</a>
+                            <a href="/404" class="relative group flex justify-items-center gap-2.5 p-1.5 bg-green-800 rounded-xl shadow-xl/15 font-comicsans inset-shadow-sm inset-shadow-white/80 transition hover:scale-115 hover:shadow-xl/50 hover:bg-red-800/60 text-white"><img src="https://i.redd.it/7tjlv2zxisaf1.png" class="h-10 rounded-xl grayscale-0 group-hover:grayscale-100" /> Discord <span class="rotate-12 absolute top-3 right-0.5 border-2 border-red-900/40 hidden group-hover:block transition group-hover:bg-red-900 rounded-xl p-0.5">Out of stock</span></a>
                           </div>
                         </Container>
                       </div>

@@ -14,7 +14,7 @@ function Arts() {
               <div class="grid lg:grid-cols-3 gap-6 p-8 lg:min-w-400">
                 {imgArt.map((art)=> (
                   <div class="grid justify-center">
-                    <div class="group bg-red-500/40 backdrop-blur-2xl inset-shadow-sm inset-shadow-white/40 p-3 rounded-2xl hover:scale-120 transition scale-90">
+                    <div class="group bg-green-500/40 backdrop-blur-2xl inset-shadow-sm inset-shadow-white/40 p-3 rounded-2xl hover:scale-120 transition scale-90">
                       <img src={art.img} class="rounded-xl" />
                     </div>
                   </div>

@@ -77,7 +77,7 @@ const sytleGreen = {
   borderRadius: '50px',
   border: '1px solid rgba(255, 255, 255, 0.4)',
   
-  background: 'linear-gradient(135deg, rgba(225, 0, 0, 0.2) 0%, rgba(225, 0, 0, 0.2) 100%)',
+  background: 'linear-gradient(135deg, rgba(74, 222, 128, 0.2) 0%, rgba(34, 197, 94, 0.2) 100%)',
   
   backdropFilter: 'blur(60px)',
   WebkitBackdropFilter: 'blur(60px)',
