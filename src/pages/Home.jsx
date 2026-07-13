@@ -33,8 +33,8 @@ function Home() {
                             <Container>
                               <div class="h-30">
                                 <h2 class="text-2xl">Status Update</h2>
-                                <p class="text-xs text-gray-300/60">Posted 07/02/2026</p>
-                                <p class="text-md p-1">I'm going to reclaim my website for myself again.</p>
+                                <p class="text-xs text-gray-300/60">Posted 07/13/2026</p>
+                                <p class="text-md p-1">Girl's Last Tour made me cry</p>
                               </div>
                             </Container>
                           </div>
