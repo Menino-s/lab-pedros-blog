@@ -102,12 +102,12 @@ function Home() {
                     <Container>
                       <h3 class="text-center  text-xl">Song Most Played Tracker</h3>
                       <div class="relative lg:h-50 xs:h-25 w-full">
-                        <img src="https://i.scdn.co/image/ab67616d0000b273bf118f32a37c18511647b54a" class="absolute left-1/2 top-0 -translate-x-1/2 z-20 lg:max-w-55 xs:max-w-25" />
+                        <img src="https://i.scdn.co/image/ab67616d0000b2732e4b34c9e50a697f7638346d" class="absolute left-1/2 top-0 -translate-x-1/2 z-20 lg:max-w-55 xs:max-w-25" />
                         <img src={cd} class="absolute lg:left-36 xs:left-43 top-4 z-10 lg:max-w-50 xs:max-w-20 animate-spin" />
                       </div>
                       <div class="pt-6">
-                        <h4 class=" text-xl text-center">Life Goes On</h4>
-                        <p class=" text-sm text-center">Oliver Tree</p>
+                        <h4 class=" text-xl text-center">Basics in Behavior (Blue Version)</h4>
+                        <p class=" text-sm text-center">The Living Tombstone feat. Or3o</p>
                       </div>
                     </Container>
                     <div class="chat_div and game_div">
@@ -147,7 +147,7 @@ function Home() {
                         <Container>
                           <h3 class="text-center text-xl text-shadow-2xs/60 text-shadow-black">Random Pics </h3>
                           <p class="text-xs text-gray-300/60 text-center pb-2">(update from time to time)</p>
-                          <img src="https://i.pinimg.com/736x/11/81/fc/1181fce38a988324c54b7849936440f3.jpg" class="rounded-xl" />
+                          <img src="https://i.pinimg.com/736x/49/df/7e/49df7e3e4d162a0f7f35e112180f6a85.jpg" class="rounded-xl" />
                         </Container>
                       </div>
                     </div>

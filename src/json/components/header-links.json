@@ -1,0 +1,8 @@
+[
+    { "link": "/", "name": "Home"},
+    { "link": "/blog", "name": "Blog"},
+    { "link": "/whoiam", "name": "Who I am?"},
+    { "link": "/404", "name": "Books"},
+    { "link": "/arts", "name": "Arts"},
+    { "link": "/games", "name": "Games I Play"}
+]
