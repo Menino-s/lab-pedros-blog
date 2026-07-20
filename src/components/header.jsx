@@ -24,12 +24,12 @@ export default function Headr() {
             </header>
           </div>
           <div class="grid p-3.5">
-            <aside class="bg-green-800/40 bg-[radial-gradient(circle,rgba(255,255,255,0.2)_1px,transparent_1px)] bg-size-[6px_6px] backdrop-blur-md p-2 rounded-2xl shadow-xl/30 ring-2 ring-inset ring-white/50 inset-shadow-sm inset-shadow-white/90">
+            <aside class="bg-blue-500/40 bg-[radial-gradient(circle,rgba(255,255,255,0.2)_1px,transparent_1px)] bg-size-[6px_6px] backdrop-blur-md p-2 rounded-2xl shadow-xl/30 ring-2 ring-inset ring-white/50 inset-shadow-sm inset-shadow-white/90">
               <div class="flex lg:gap-142 justify-between items-center">
                 <img src={paras} class="max-h-10 rotate-y-180" />
-                <div class="flex flex-wrap items-center gap-0.5 justify-center">
+                <div class="flex flex-wrap items-center gap-2 justify-center">
                   { headerLink.map((link) => (
-                    <Link to={link.link} class="p-1.5 bg-green-950/70 rounded-xl shadow-xl/15 font-comicsans inset-shadow-sm inset-shadow-white/80 transition hover:scale-115 hover:shadow-xl/50 hover:shadow-white/50 hover:bg-green-800 text-white"><Button>{link.name}</Button></Link>
+                    <Link to={link.link} class="p-1.5 bg-linear-to-t to-green-800/60 from-blue-500/40 rounded-xl shadow-xl/15 font-comicsans inset-shadow-sm inset-shadow-white/80 transition hover:scale-115 hover:shadow-xl/50 hover:shadow-white/50 hover:bg-linear-to-t hover:to-green-800/80 hover:from-blue-500/60 text-white"><Button>{link.name}</Button></Link>
                   ))}
                 </div>
                 <img src={luxray} class="" />
