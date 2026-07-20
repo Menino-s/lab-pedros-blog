@@ -11,7 +11,7 @@ export default function Headr() {
 
     return(
     <>
-    <div class="">
+    <div class="pb-3">
       <div class="grid pb-2 justify-items-center">
         <div class="bg-white/1 rounded-b-2xl backdrop-blur-md backdrop-brightness-105 shadow-xl/50 drop-shadow-2xl drop-green-700 ring-2 ring-inset ring-white/50 inset-shadow-sm inset-shadow-white/90 grid justify-center content-center">
           <div class="flex items-center justify-center p-2.5 relative">

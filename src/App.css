@@ -31,3 +31,6 @@ html, body {
   pointer-events: none;
 }
 
+html, body, * {
+  cursor: url('./assets/mouse1.png'), auto !important;
+}
