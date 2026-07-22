@@ -4,5 +4,6 @@
     { "link": "/whoiam", "name": "Who I am?"},
     { "link": "/404", "name": "Books"},
     { "link": "/arts", "name": "Arts"},
-    { "link": "/games", "name": "Games I Play"}
+    { "link": "/games", "name": "Games I Play"},
+    { "link": "/mineblog", "name": "Minecraft"}
 ]

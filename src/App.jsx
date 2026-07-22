@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { Home, Blog, WhoIam, Books, Arts, Games, NotFound } from './pages';
+import { Home, Blog, WhoIam, Books, Arts, Games, Mineblog, NotFound } from './pages';
 import FirtsPost from './posts/links-posts/Firtspost';
 import PlayedMarcelo from './posts/links-posts/PlayedMarcelo';
 import { Background, Stickers, MusicBackground } from './components';
@@ -34,6 +34,7 @@ function App() {
             <Route path="/books" element={<Books />} />
             <Route path="/arts" element={<Arts />} />
             <Route path="/games" element={<Games />} />
+            <Route path="/mineblog" element={<Mineblog />} />
             <Route path="/firtspost" element={<FirtsPost />} />
             <Route path="/playmarcelo" element={<PlayedMarcelo />} />
             <Route path="*" element={<NotFound />} />
