@@ -33,8 +33,8 @@ function Home() {
                             <Container>
                               <div class="h-30">
                                 <h2 class="text-2xl">Status Update</h2>
-                                <p class="text-xs text-gray-300/60">Posted 07/13/2026</p>
-                                <p class="text-md p-1">Girl's Last Tour made me cry</p>
+                                <p class="text-xs text-gray-300/60">Posted 07/31/2026</p>
+                                <p class="text-md p-1">I'm sad, or just kind of down.</p>
                               </div>
                             </Container>
                           </div>
@@ -102,12 +102,12 @@ function Home() {
                     <Container>
                       <h3 class="text-center  text-xl">Song Most Played Tracker</h3>
                       <div class="relative lg:h-50 xs:h-25 w-full">
-                        <img src="https://i.scdn.co/image/ab67616d0000b2732e4b34c9e50a697f7638346d" class="absolute left-1/2 top-0 -translate-x-1/2 z-20 lg:max-w-55 xs:max-w-25" />
+                        <img src="https://f4.bcbits.com/img/a3993658307_2.jpg" class="absolute left-1/2 top-0 -translate-x-1/2 z-20 lg:max-w-55 xs:max-w-25" />
                         <img src={cd} class="absolute lg:left-36 xs:left-43 top-4 z-10 lg:max-w-50 xs:max-w-20 animate-spin" />
                       </div>
                       <div class="pt-6">
-                        <h4 class=" text-xl text-center">Basics in Behavior (Blue Version)</h4>
-                        <p class=" text-sm text-center">The Living Tombstone feat. Or3o</p>
+                        <h4 class=" text-xl text-center">CLARISSA - NADA CONTRA (CIUME)(MEIAUM REMIX)</h4>
+                        <p class=" text-sm text-center">MeiaUm</p>
                       </div>
                     </Container>
                     <div class="chat_div and game_div">
@@ -147,7 +147,7 @@ function Home() {
                         <Container>
                           <h3 class="text-center text-xl text-shadow-2xs/60 text-shadow-black">Random Pics </h3>
                           <p class="text-xs text-gray-300/60 text-center pb-2">(update from time to time)</p>
-                          <img src="https://i.pinimg.com/736x/49/df/7e/49df7e3e4d162a0f7f35e112180f6a85.jpg" class="rounded-xl" />
+                          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcQf75BqHPFF1vi0WS1En-7LbVTy_cieSC4bL6rjKW00hVkeq6UfjT6-Hl&s=10" class="rounded-xl" />
                         </Container>
                       </div>
                     </div>
