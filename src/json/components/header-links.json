@@ -5,5 +5,6 @@
     { "link": "/404", "name": "Books"},
     { "link": "/arts", "name": "Arts"},
     { "link": "/games", "name": "Games I Play"},
+    { "link": "https://users3.smartgb.com/g/g.php?a=s&i=g36-41978-bf", "name": "Guestbook"},
     { "link": "/mineblog", "name": "Minecraft"}
 ]

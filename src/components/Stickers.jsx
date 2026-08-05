@@ -11,7 +11,7 @@ export default function Stickers() {
           drag
           dragMomentum={true}
           dragTransition={{ bounceStiffness: 400, bounceDamping: 20 }}
-          class="hidden lg:block absolute w-40 h-40 cursor-grab active:cursor-grabbing pointer-events-auto"
+          class="hidden lg:block absolute lg:w-30 lg:h-30 cursor-grab active:cursor-grabbing pointer-events-auto md:w-25 md:h-25"
           style={{ 
             top: sticker.top, 
             left: sticker.left, 

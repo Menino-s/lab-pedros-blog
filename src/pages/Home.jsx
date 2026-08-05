@@ -1,8 +1,11 @@
 import { oldTec, game, music, cd, connected, website, argLiker, musical, brazil, kittys, paws, steam, wii, lambda, neko98, resolution, github, kitty, miinormal, miihello, meinmii, myblog } from '../assets';
 import { Divmain, Container, Button } from "../components"
+import Posts from "../posts/post.json"
 
 
 function Home() {
+
+  const firstpost = Posts[0]
 
     return(
       <>
@@ -23,18 +26,17 @@ function Home() {
                       </div>
                       <div class="grid content-baseline">
                         <div class="grid gap-11">
-                          <div>
+                          <div class="grid gap-6">
                             <Container>
                               <h2 class="text-xl">This is the cake!</h2>
                               <p class="text-gray-200 text-md p-2 pt-">Cake is the mascot of my website! Remember to treat her very well; she always tells me everything that happens here when I'm not around. Be nice to her, pet her, and don't forget to feed her when you come here :)</p>
                             </Container>
-                          </div>
-                          <div>
+
                             <Container>
                               <div class="h-30">
                                 <h2 class="text-2xl">Status Update</h2>
-                                <p class="text-xs text-gray-300/60">Posted 07/31/2026</p>
-                                <p class="text-md p-1">I'm sad, or just kind of down.</p>
+                                <p class="text-xs text-gray-300/60">Posted 08/05/2026</p>
+                                <p class="text-md p-1">I'm losing my mind lol</p>
                               </div>
                             </Container>
                           </div>
@@ -65,17 +67,36 @@ function Home() {
                         </div>
                       </Container>
                     </div>
-                    <div class="flex justify-center">
+                    <div class="flex justify-center pb-2">
                       <Container>
                         <img src="https://count.getloli.com/@pianobug?name=pianobug&theme=booru-vp&padding=7&offset=0&align=top&scale=1&pixelated=1&darkmode=auto" alt=":pianobug" />
+                      </Container>
+                    </div>
+                    <div class="grid grid-cols-1 gap-3">
+                      <Container>
+                        <h2 class="text-xl">The last Post on blog!</h2>
+                        <div class="p-2">
+                            {firstpost ? (
+                              <div>
+                                <Container>
+                                  <h3 class="text-lg p-0.5">{firstpost.title} <span class="text-[16px] text-gray-300 font-snpro">{firstpost.hour}</span></h3>
+                                  <h3 class="">{firstpost.content}</h3>
+                                </Container>
+                              </div>
+                            ) : (
+                              <div>
+                                <h3 class="text-lg p-0.5">Something is wrong :(</h3>
+                              </div>
+                            )}
+                        </div>
                       </Container>
                     </div>
               </section>
               <section class="grid lg:grid-cols-2 gap-3 content-baseline right_div">
                     <Container class="tags_div">
                       <div class="lg:pb-10 xs:pb-0">
-                        <h2 class=" text-xl text-center">Some tags</h2>
-                        <p class=" text-md pt-2">Here are some tags that might represent me, since much of what I post on this blog is related to something from here!</p>
+                        <h2 class="text-xl text-center">Some tags</h2>
+                        <p class="text-md pt-2">Here are some tags that might represent me, since much of what I post on this blog is related to something from here!</p>
                       </div>
                       <div class="grid grid-cols-3 gap-1">
                         <img src={oldTec}  />
@@ -117,7 +138,7 @@ function Home() {
                           <iframe src="https://www3.cbox.ws/box/?boxid=3554800&boxtag=VN9wkA" class="xs:h-50 lg:h-60" width="100%" allowtransparency="yes" allow="autoplay" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>	
                         </Container>
                       </div>
-                      <div>
+                      <div class="grid gap-3">
                         <Container>
                           <div class="rounded-2xl bg-[url(https://cdn2.steamgriddb.com/hero/47ce0875420b2dbacfc5535f94e68433.png)] border-4 border-gray-500/70">
                             <div class="rounded-xl bg-gray-300/80 backdrop-blur-2xl inset-shadow-sm inset-shadow-white/40 flex justify-center p-2">
@@ -129,21 +150,25 @@ function Home() {
                             </div>
                           </div>
                         </Container>
-                      </div>
-                    </div>
-                    <div class="grid gap-3">
-                      <div>
-                        <Container class="cutepic_div">
-                          <p class="text-center text-md text-shadow-2xs/60 text-shadow-black">Contact? <br/><span class="text-center text-xs text-shadow-2xs/60 text-shadow-black">(I dunno, maybe won't reply)</span></p>
-                          <div class="grid gap-3 p-4 text-center">
-                            <Button><a href="mailto:pedro.menino.carlos@gmail.com" class="flex justify-items-center gap-2.5 p-1.5 bg-linear-to-t to-green-800/60 from-blue-500/40 rounded-xl shadow-xl/15 font-comicsans inset-shadow-sm inset-shadow-white/80 transition hover:scale-115 hover:shadow-xl/50 hover:bg-green-800/60 text-white"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Email_Shiny_Icon.svg/330px-Email_Shiny_Icon.svg.png" class="h-10" /> Email</a></Button>
-                            <Button><a href="https://www.instagram.com/pdrinme/" class="flex justify-items-center gap-2.5 p-1.5 bg-linear-to-t to-green-800/60 from-blue-500/40 rounded-xl shadow-xl/15 font-comicsans inset-shadow-sm inset-shadow-white/80 transition hover:scale-115 hover:shadow-xl/50 hover:bg-green-800/60 text-white"><img src="https://i.redd.it/n50b6goja95d1.png" class="h-10 rounded-xl" /> Instagram</a></Button>
-                            <Button><a href="https://x.com/pdrinme" class="flex justify-items-center gap-2.5 p-1.5 bg-linear-to-t to-green-800/60 from-blue-500/40 rounded-xl shadow-xl/15 font-comicsans inset-shadow-sm inset-shadow-white/80 transition hover:scale-115 hover:shadow-xl/50 hover:bg-green-800/60 text-white"><img src="https://i.redd.it/a-collection-of-some-of-my-skeuomorphic-icons-v0-z11v3xc5guad1.png?width=1675&format=png&auto=webp&s=c7d796e88c6caf356734a3eb227962282e8203bd" class="h-10 rounded-xl" /> X (Formerly called Twitter)</a></Button>
-                            <Button><a href="/404" class="relative group flex justify-items-center gap-2.5 p-1.5 bg-linear-to-t to-green-800/60 from-blue-500/40 rounded-xl shadow-xl/15 font-comicsans inset-shadow-sm inset-shadow-white/80 transition hover:scale-115 hover:shadow-xl/50 hover:bg-red-800/60 text-white"><img src="https://i.redd.it/7tjlv2zxisaf1.png" class="h-10 rounded-xl grayscale-0 group-hover:grayscale-100" /> Discord <span class="rotate-12 absolute top-3 right-0.5 border-2 border-red-900/40 hidden group-hover:block transition group-hover:bg-red-900 rounded-xl p-0.5">Out of stock</span></a></Button>
-                          </div>
+                        <Container>
+                          <iframe src="https://nvlk.dimden.dev/" class="w-50 h-50 rounded-2xl justify-self-center" name="neolink"></iframe>
                         </Container>
                       </div>
-                      <div>
+                    </div>
+                    <div class="grid">
+                      <div class="flex flex-col gap-3">
+                        <div>
+                          <Container class="cutepic_div">
+                            <p class="text-center text-md text-shadow-2xs/60 text-shadow-black">Contact? <br/><span class="text-center text-xs text-shadow-2xs/60 text-shadow-black">(I dunno, maybe won't reply)</span></p>
+                            <div class="grid gap-3 p-4 text-center">
+                              <Button><a href="mailto:pedro.menino.carlos@gmail.com" class="flex justify-items-center gap-2.5 p-1.5 bg-linear-to-t to-green-800/60 from-blue-500/40 rounded-xl shadow-xl/15 font-comicsans inset-shadow-sm inset-shadow-white/80 transition hover:scale-115 hover:shadow-xl/50 hover:bg-green-800/60 text-white"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Email_Shiny_Icon.svg/330px-Email_Shiny_Icon.svg.png" class="h-10" /> Email</a></Button>
+                              <Button><a href="https://www.instagram.com/pdrinme/" class="flex justify-items-center gap-2.5 p-1.5 bg-linear-to-t to-green-800/60 from-blue-500/40 rounded-xl shadow-xl/15 font-comicsans inset-shadow-sm inset-shadow-white/80 transition hover:scale-115 hover:shadow-xl/50 hover:bg-green-800/60 text-white"><img src="https://i.redd.it/n50b6goja95d1.png" class="h-10 rounded-xl" /> Instagram</a></Button>
+                              <Button><a href="https://x.com/pdrinme" class="flex justify-items-center gap-2.5 p-1.5 bg-linear-to-t to-green-800/60 from-blue-500/40 rounded-xl shadow-xl/15 font-comicsans inset-shadow-sm inset-shadow-white/80 transition hover:scale-115 hover:shadow-xl/50 hover:bg-green-800/60 text-white"><img src="https://i.redd.it/a-collection-of-some-of-my-skeuomorphic-icons-v0-z11v3xc5guad1.png?width=1675&format=png&auto=webp&s=c7d796e88c6caf356734a3eb227962282e8203bd" class="h-10 rounded-xl" /> X (Formerly called Twitter)</a></Button>
+                              <Button><a href="/404" class="relative group flex justify-items-center gap-2.5 p-1.5 bg-linear-to-t to-green-800/60 from-blue-500/40 rounded-xl shadow-xl/15 font-comicsans inset-shadow-sm inset-shadow-white/80 transition hover:scale-115 hover:shadow-xl/50 hover:bg-red-800/60 text-white"><img src="https://i.redd.it/7tjlv2zxisaf1.png" class="h-10 rounded-xl grayscale-0 group-hover:grayscale-100" /> Discord <span class="rotate-12 absolute top-3 right-0.5 border-2 border-red-900/40 hidden group-hover:block transition group-hover:bg-red-900 rounded-xl p-0.5">Out of stock</span></a></Button>
+                            </div>
+                          </Container>
+                        </div>
+                        
                         <Container>
                           <h3 class="text-center text-xl text-shadow-2xs/60 text-shadow-black">Random Pics </h3>
                           <p class="text-xs text-gray-300/60 text-center pb-2">(update from time to time)</p>

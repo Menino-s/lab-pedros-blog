@@ -5,10 +5,12 @@ import FirtsPost from './posts/links-posts/Firtspost';
 import PlayedMarcelo from './posts/links-posts/PlayedMarcelo';
 import { Background, Stickers, MusicBackground } from './components';
 import './App.css';
+import { rainbowCursor } from "cursor-effects";
 
 function App() {
   const [message, setMessage] = useState('');
-
+  
+  
   useEffect(() => {
     if (!message) return;
 
@@ -20,6 +22,8 @@ function App() {
     e.preventDefault();
     setMessage('pls do not try to steal any part of the code! If you want to view the code, feel free to use F12!');
   };
+  
+
 
   return (
     <div onContextMenu={handleRightClick}>
