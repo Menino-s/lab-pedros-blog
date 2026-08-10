@@ -1,4 +1,4 @@
-import { oldTec, game, music, cd, connected, website, argLiker, musical, brazil, kittys, paws, steam, wii, lambda, neko98, resolution, github, kitty, miinormal, miihello, meinmii, myblog } from '../assets';
+import { oldTec, game, music, cd, connected, website, argLiker, musical, brazil, kittys, paws, steam, wii, lambda, neko98, resolution, github, kitty, miinormal, miihello, meinmii, myblog, banner } from '../assets';
 import { Divmain, Container, Button } from "../components"
 import Posts from "../posts/post.json"
 
@@ -173,8 +173,17 @@ function Home() {
                 <Container>
                   <h3 class="text-center text-xl text-shadow-2xs/60 text-shadow-black">MOMONGA</h3>
                   <p class="text-xs text-gray-300/60 text-center pb-2 hidden">(update from time to time)</p>
-                  <img src="https://i.pinimg.com/736x/e7/1c/cf/e71ccf8cf68abfa6883e4a9330d28d28.jpg" class="rounded-xl" />
+                  <img src="https://i.pinimg.com/736x/a8/91/21/a8912190c45ff6822c4d0120fbaf00b5.jpg" class="rounded-xl" />
                 </Container>
+
+                <div class="hidden">
+                  <Container>
+                    <h3 class="text-center text-xl text-shadow-2xs/60 text-shadow-black">My banner!</h3>
+                    <p class="text-xs text-gray-300/60 text-center pb-2 hidden">(update from time to time)</p>
+                    <img src={banner} class="rounded-xl" />
+                  </Container>
+                </div>
+
               </div>
             </div>
           </section>
