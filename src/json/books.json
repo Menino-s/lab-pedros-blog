@@ -1,3 +1,47 @@
 [
-    {"namebook": "Made in Abyss", ""}
+  {
+    "namebook": "Vou te receitar um gato",
+    "frontimg": "https://m.media-amazon.com/images/I/71pw2IDO+7L._SL1500_.jpg",
+    "backimg": "https://m.media-amazon.com/images/I/51Y6Neo6zSL._SL1005_.jpg"
+  },
+  {
+    "namebook": "Vou te receitar outro gato",
+    "frontimg": "https://m.media-amazon.com/images/I/81ZBTeP9DHL._SL1500_.jpg",
+    "backimg": "https://m.media-amazon.com/images/I/51xZAN+irJL._SL1005_.jpg"
+  },
+  {
+    "namebook": "Made in Abyss Volume 1",
+    "frontimg": "https://m.media-amazon.com/images/I/91N8saM4HdL._SL1500_.jpg",
+    "backimg": "https://m.media-amazon.com/images/I/81T3OalUEeL._SL1500_.jpg"
+  },
+  {
+    "namebook": "Made in Abyss Volume 2",
+    "frontimg": "https://m.media-amazon.com/images/I/71j4swgeIIL._SL1024_.jpg",
+    "backimg": "https://m.media-amazon.com/images/I/81byLX3vPmL._SL1500_.jpg"
+  },
+  {
+    "namebook": "Made in Abyss Volume 4",
+    "frontimg": "https://m.media-amazon.com/images/I/61Nm0ZoEQtL._SL1024_.jpg",
+    "backimg": "https://m.media-amazon.com/images/I/71uqVH2wStL._SL1500_.jpg"
+  },
+  {
+    "namebook": "Spy x Family Volume 1",
+    "frontimg": "https://m.media-amazon.com/images/I/71vMGRog+iL._SL1500_.jpg",
+    "backimg": "https://m.media-amazon.com/images/I/7121zS76hnL._SL1500_.jpg"
+  },
+  {
+    "namebook": "Spy x Family Volume 2",
+    "frontimg": "https://m.media-amazon.com/images/I/71At-X15dkL._SL1500_.jpg",
+    "backimg": "https://m.media-amazon.com/images/I/71cWxQnsfnL._SL1500_.jpg"
+  },
+  {
+    "namebook": "Spy x Family Volume 3",
+    "frontimg": "https://m.media-amazon.com/images/I/71dWkiUyDYL._SL1500_.jpg",
+    "backimg": "https://m.media-amazon.com/images/I/71NN4rojiAL._SL1500_.jpg"
+  },
+  {
+    "namebook": "Chi's Sweet Home Volume 11",
+    "frontimg": "https://m.media-amazon.com/images/I/71vfotdQeaL._SL1500_.jpg",
+    "backimg": "https://m.media-amazon.com/images/I/71JxFKrUOJL._SL1500_.jpg"
+  }
 ]

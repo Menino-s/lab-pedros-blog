@@ -1,27 +1,156 @@
 [
-    {"title": "Happy Birthday Brother!", "hour": "10:28 am 07/31/2026", "content": "This Tuesday was my brother Luiz's birthday! (Happy birthday, Luiz!) Unfortunately, we didn't take a photo, so I owe you guys that one—haha—but it was really fun. Plus, I bought him a shirt as a gift!"},
-    {"title": "RETROCONN!", "hour": "11:12 am 07/27/2026", "content": "This past weekend, on the 25th, I went to Retrocon with my siblings, and we had such a great time! We got to check out all kinds of special edition video game consoles and tons of amazing games. Sadly, pretty much everything was ridiculously expensive this year, so the only thing we ended up buying was *Call of Duty: Black Ops* for the Nintendo DS. Even so, it was definitely worth the trip!", "img": "./img-posts/post-img-16.png"},
-    {"title": "Reflective thoughts and a bit of madness", "hour": "11:37 pm 07/20/2026", "content": "I had a really reflective moment today and realized a lot of things, but the biggest takeaway for this post is that I love running this blog. I love creating every silly little feature, more and more, it feels like this is my own little corner of the internet. I'm not a big fan of how everything seems to be becoming grayer and more corporate. I think the world needs personality, and everyone should be able to express theirs whether it's in their room, their home, or even the little things they create. I've been thinking about this a lot lately, and this blog has become exactly that space for me. It feels like people are slowly drifting away from who they really are and becoming filtered versions of themselves. On social media, people tend to post only what fits the image they want to present, leaving behind the things that genuinely represent them, as if everything has to contribute to a more \"palatable\" persona. Maybe I'm overthinking it, but that's what's been on my mind lately."},
-    {"title": "My friend made a drawing for me.", "hour": "14:46 pm 07/08/2026", "content": "My friend (thanks, Sophia!) made this drawing of me inspired by Cult of the Lamb, featuring some of my accessories. Thank you so much, @siqu.eira200!", "img": "./img-posts/post-img-15.png"},
-    {"title": "My site hosted a Cult of the Lamb event!", "hour": "14:07 pm 06/08/2026", "content": "I decided to play a prank where my site was \"hacked\" by a certain lamb that claimed my site as part of its cult.", "img": "./img-posts/post-img-14.png"},
-    {"title": "Some clips and Random Things", "hour": "11:06 am 06/29/2026", "content": "Just a few random things I wanted to comment on, and some clips of amazing plays (sarcasm).", "link": "/playmarcelo", "linkimg": "link.svg"},
-    {"title": "TADC movie, very happy day with my girlfriend and a Japanese event.", "hour": "15:20 pm 06/08/2026", "content": "On the 4th I went to the premiere of the TADC movie and I thought it was SO DAMN GOOD! I cried in a few parts because it actually managed to touch on some really sensitive topics, and seeing the characters deal with that hits you a bit. On the 5th, I helped my brother buy some stuff and organize my room in the morning, then spent the afternoon and stayed over at my girlfriend's <3 We watched 3 movies (well, 2 and a half, because we got sleepy during the third one lol). So I stayed with her and helped her clean up a bit more during Saturday (and I gotta admit I felt so bad waking her up). Then on Saturday I finished organizing my room and my brother's room, and the rest of the day was just gaming a bit and talking to her. On Sunday I went with some friends to a Japanese event in the neighboring city; I found it pretty weak compared to the one in my town, but it was still cool. After that, we stopped by the mall (my idea) but I was so ready to get out of there."},
-    {"title": "Job interview? and a MacBook!", "hour": "15:51 pm 05/18/2026", "content": "Yesterday I had a job interview, it was actually a pretty good interview at a relatively well-known company. I went home and waited for the MacBook I had bought, a pretty old Mac from 2011. Well, thanks to the post office I found out I would have to go pick up the Mac, and in the middle of this saga I received a message that I wasn't called for the interview.", "img": "./img-posts/post-img-12.png"},
-    {"title": "The new Website updates", "hour": "15:51 pm 05/18/2026", "content": "Lately, I've been updating the website a lot, and I've realized that this is just the blog part now, haha, but even so, I'm very happy with these changes and the direction things are taking. I hope you're as happy with the changes as I am :)"},
-    {"title": "So many things to say", "hour": "20:20 pm 05/11/2026", "content": "Many things happened. My birthday was this past Saturday, when I turned twenty. I spent the day with my girlfriend and family, and it was a really great day. On Sunday morning, I went out with my friends to the fair to enjoy my birthday a little. And today, Monday, was also a very nice day because I made my first fanart and remembered two games, one of them being Spooky's Jump-Scare Mansion and the other Hey You, Pikachu! Two of which I only have one for now, since my friend Luís (thank you Luís :P) bought me Hey You, Pikachu in Japanese. I still don't have an N64, but just having a cartridge of a game I really wanted is enough for me."},
-    {"title": "Maybe a new mascot?", "hour": "22:26 pm 05/04/2026", "content": "Lately, I've been drawing a bit, and I ended up creating a character that will represent me from now on on the blog, so I want you to meet Bug. This little bunny will usher in a new era here.", "img": "./img-posts/post-img-11.png"},
-    {"title": "The new Updates!", "hour": "14:32 pm 05/01/2026", "content": "I'm very happy. I've made several changes and updates to the blog, and it all started when I was browsing the Fruitger Aero Archive, where I saw webrings. Then I started discovering and exploring websites that are designed to look old, and I drew inspiration from many of them. Now the blog looks like this, and I'm very happy with the result.", "img": "./img-posts/post-img-10.png"},
-    {"title": "I tried to install Hackintosh", "hour": "18:11 pm 04/28/2026", "content": "Today I tried to create a hackintosh using my sixth-generation ThinkPad Carbon X1, which is hackintosh compatible, but today was practically a wasted day. Many things didn't work, and it just didn't succeed, besides taking a long time. However, I won't give up and I'll keep trying!"},
-    {"title": "First long post", "hour": "16:01 pm 04/24/2026", "content": "This is the first post to have a dedicated page; not all posts will have this, most will remain just a short post. But even so, I'm very happy about this new phase :)", "img": "", "link": "/firtspost", "linkimg": "link.svg"},
-    {"title": "It's Done!", "hour": "16:03 pm 04/23/2026", "content": "Today I finally managed to fix the posts that had videos; they are no longer under maintenance, and now we can say that the blog is 100% again! I can't wait to post more news!", "img": ""},
-    {"title": "Now i play Counter Strike 2", "hour": "13:41 pm 04/16/2026", "content": "In the last few weeks I've been playing a lot of Counter-Strike. I'm obviously not good, but I really like the game. I've been playing since Counter-Strike Source, which I started in 2020. It's not that long, but it feels like a considerable amount of time. I also bought some manga and some clothes that I thought were really cool! I've started producing my Minecraft Alpha channel again, and it's been fun.", "img": ""},
-    {"title": "I really have nothing to post.", "hour": "19:52 pm 03/25/2026", "content": "Nothing has happened in the last few days that would require me to post, I just bought the first three volumes of Beastars and wanted to take a picture of my cat.", "img": "./img-posts/blog-img-8.png"},
-    {"title": "I disappeared, but I'm back with good news.", "hour": "14:52 am 03/16/2026", "content": "I disappeared for a while, but I was working on some projects, playing a lot of games, and just enjoying myself a bit.", "img": ""},
-    {"title": "Finally, the blog is here!", "hour": "2:55 am 02/16/2026", "content": "We have a version of the blog that I find pleasing; now we have all the pages and compatibility with mobile browsers is 100%.", "img": "./img-posts/blog-img-7.png"},
-    {"title": "I finally bought the Juno skin.", "hour": "1:44 am 02/16/2026", "content": "Yesterday I bought the Hello Kitty Juno skin, I thought it was amazing. I even finished my placement matches with Juno and reached Gold 2.", "img": "./img-posts/blog-img-6.png"},
-    {"title": "Play of the Game with the new support", "hour": "16:02 pm 02/11/2026", "content": "Yesterday's I played it's magnificent play, I had the new Jetpack Cat support, I really liked it, but you need to know how to position yourself very well as a support (which I already know LMAO).", "img": "", "video": "https://youtu.be/JETYDA-sI0c"},
-    {"title": "The Beautiful play with my friends", "hour": "14:23 pm 02/06/2026", "content": "Yesterday's play was magnificent, my friends and I were playing (Marcelo even recorded it, thank you Marcelo!). I was playing support with Wuyang and it was a fantastic play.", "img": "", "video": "https://youtu.be/HVKY_n_A_5Y"},
-    {"title": "I'm excited for the Hello Kitty skins on OW2", "hour": "16:29 pm 02/05/2026", "content": "I really liked the skin of Juno and Windowaker, I don't now what I will take. But the Juno skin it's soo cutee :3 I think to take the Juno skin!", "img": "./img-posts/blog-img-3.webp"},
-    {"title": "We are in Vercel!", "hour": "9:42 am 02/05/2026", "content": "Officially my idea it is online on the internet :) I am very happy, and can't wait to post more things here :3", "img": "./img-posts/blog-img-2.png"},
-    {"title": "First post here", "hour": "8:16 am 02/05/2026", "content": "This website is made by me, Pedro Menino. I create this website, to remember the good old blogs, i never lived then phase but i really like the idea", "img": "./img-posts/blog-img.jpg"}
+  {
+    "title": "Books are here!",
+    "hour": "10:49 am 08/12/2026",
+    "content": "The Books section is finally ready! I have to admit, I took longer than necessary haha. I got stuck on how to lay out the page the way I wanted, which is why it took so long, but it's finally done!"
+  },
+  {
+    "title": "Happy Birthday Brother!",
+    "hour": "10:28 am 07/31/2026",
+    "content": "This Tuesday was my brother Luiz's birthday! (Happy birthday, Luiz!) Unfortunately, we didn't take a photo, so I owe you guys that one—haha—but it was really fun. Plus, I bought him a shirt as a gift!"
+  },
+  {
+    "title": "RETROCONN!",
+    "hour": "11:12 am 07/27/2026",
+    "content": "This past weekend, on the 25th, I went to Retrocon with my siblings, and we had such a great time! We got to check out all kinds of special edition video game consoles and tons of amazing games. Sadly, pretty much everything was ridiculously expensive this year, so the only thing we ended up buying was *Call of Duty: Black Ops* for the Nintendo DS. Even so, it was definitely worth the trip!",
+    "img": "./img-posts/post-img-16.png"
+  },
+  {
+    "title": "Reflective thoughts and a bit of madness",
+    "hour": "11:37 pm 07/20/2026",
+    "content": "I had a really reflective moment today and realized a lot of things, but the biggest takeaway for this post is that I love running this blog. I love creating every silly little feature, more and more, it feels like this is my own little corner of the internet. I'm not a big fan of how everything seems to be becoming grayer and more corporate. I think the world needs personality, and everyone should be able to express theirs whether it's in their room, their home, or even the little things they create. I've been thinking about this a lot lately, and this blog has become exactly that space for me. It feels like people are slowly drifting away from who they really are and becoming filtered versions of themselves. On social media, people tend to post only what fits the image they want to present, leaving behind the things that genuinely represent them, as if everything has to contribute to a more \"palatable\" persona. Maybe I'm overthinking it, but that's what's been on my mind lately."
+  },
+  {
+    "title": "My friend made a drawing for me.",
+    "hour": "14:46 pm 07/08/2026",
+    "content": "My friend (thanks, Sophia!) made this drawing of me inspired by Cult of the Lamb, featuring some of my accessories. Thank you so much, @siqu.eira200!",
+    "img": "./img-posts/post-img-15.png"
+  },
+  {
+    "title": "My site hosted a Cult of the Lamb event!",
+    "hour": "14:07 pm 06/08/2026",
+    "content": "I decided to play a prank where my site was \"hacked\" by a certain lamb that claimed my site as part of its cult.",
+    "img": "./img-posts/post-img-14.png"
+  },
+  {
+    "title": "Some clips and Random Things",
+    "hour": "11:06 am 06/29/2026",
+    "content": "Just a few random things I wanted to comment on, and some clips of amazing plays (sarcasm).",
+    "link": "/playmarcelo",
+    "linkimg": "link.svg"
+  },
+  {
+    "title": "TADC movie, very happy day with my girlfriend and a Japanese event.",
+    "hour": "15:20 pm 06/08/2026",
+    "content": "On the 4th I went to the premiere of the TADC movie and I thought it was SO DAMN GOOD! I cried in a few parts because it actually managed to touch on some really sensitive topics, and seeing the characters deal with that hits you a bit. On the 5th, I helped my brother buy some stuff and organize my room in the morning, then spent the afternoon and stayed over at my girlfriend's <3 We watched 3 movies (well, 2 and a half, because we got sleepy during the third one lol). So I stayed with her and helped her clean up a bit more during Saturday (and I gotta admit I felt so bad waking her up). Then on Saturday I finished organizing my room and my brother's room, and the rest of the day was just gaming a bit and talking to her. On Sunday I went with some friends to a Japanese event in the neighboring city; I found it pretty weak compared to the one in my town, but it was still cool. After that, we stopped by the mall (my idea) but I was so ready to get out of there."
+  },
+  {
+    "title": "Job interview? and a MacBook!",
+    "hour": "15:51 pm 05/18/2026",
+    "content": "Yesterday I had a job interview, it was actually a pretty good interview at a relatively well-known company. I went home and waited for the MacBook I had bought, a pretty old Mac from 2011. Well, thanks to the post office I found out I would have to go pick up the Mac, and in the middle of this saga I received a message that I wasn't called for the interview.",
+    "img": "./img-posts/post-img-12.png"
+  },
+  {
+    "title": "The new Website updates",
+    "hour": "15:51 pm 05/18/2026",
+    "content": "Lately, I've been updating the website a lot, and I've realized that this is just the blog part now, haha, but even so, I'm very happy with these changes and the direction things are taking. I hope you're as happy with the changes as I am :)"
+  },
+  {
+    "title": "So many things to say",
+    "hour": "20:20 pm 05/11/2026",
+    "content": "Many things happened. My birthday was this past Saturday, when I turned twenty. I spent the day with my girlfriend and family, and it was a really great day. On Sunday morning, I went out with my friends to the fair to enjoy my birthday a little. And today, Monday, was also a very nice day because I made my first fanart and remembered two games, one of them being Spooky's Jump-Scare Mansion and the other Hey You, Pikachu! Two of which I only have one for now, since my friend Luís (thank you Luís :P) bought me Hey You, Pikachu in Japanese. I still don't have an N64, but just having a cartridge of a game I really wanted is enough for me."
+  },
+  {
+    "title": "Maybe a new mascot?",
+    "hour": "22:26 pm 05/04/2026",
+    "content": "Lately, I've been drawing a bit, and I ended up creating a character that will represent me from now on on the blog, so I want you to meet Bug. This little bunny will usher in a new era here.",
+    "img": "./img-posts/post-img-11.png"
+  },
+  {
+    "title": "The new Updates!",
+    "hour": "14:32 pm 05/01/2026",
+    "content": "I'm very happy. I've made several changes and updates to the blog, and it all started when I was browsing the Fruitger Aero Archive, where I saw webrings. Then I started discovering and exploring websites that are designed to look old, and I drew inspiration from many of them. Now the blog looks like this, and I'm very happy with the result.",
+    "img": "./img-posts/post-img-10.png"
+  },
+  {
+    "title": "I tried to install Hackintosh",
+    "hour": "18:11 pm 04/28/2026",
+    "content": "Today I tried to create a hackintosh using my sixth-generation ThinkPad Carbon X1, which is hackintosh compatible, but today was practically a wasted day. Many things didn't work, and it just didn't succeed, besides taking a long time. However, I won't give up and I'll keep trying!"
+  },
+  {
+    "title": "First long post",
+    "hour": "16:01 pm 04/24/2026",
+    "content": "This is the first post to have a dedicated page; not all posts will have this, most will remain just a short post. But even so, I'm very happy about this new phase :)",
+    "img": "",
+    "link": "/firtspost",
+    "linkimg": "link.svg"
+  },
+  {
+    "title": "It's Done!",
+    "hour": "16:03 pm 04/23/2026",
+    "content": "Today I finally managed to fix the posts that had videos; they are no longer under maintenance, and now we can say that the blog is 100% again! I can't wait to post more news!",
+    "img": ""
+  },
+  {
+    "title": "Now i play Counter Strike 2",
+    "hour": "13:41 pm 04/16/2026",
+    "content": "In the last few weeks I've been playing a lot of Counter-Strike. I'm obviously not good, but I really like the game. I've been playing since Counter-Strike Source, which I started in 2020. It's not that long, but it feels like a considerable amount of time. I also bought some manga and some clothes that I thought were really cool! I've started producing my Minecraft Alpha channel again, and it's been fun.",
+    "img": ""
+  },
+  {
+    "title": "I really have nothing to post.",
+    "hour": "19:52 pm 03/25/2026",
+    "content": "Nothing has happened in the last few days that would require me to post, I just bought the first three volumes of Beastars and wanted to take a picture of my cat.",
+    "img": "./img-posts/blog-img-8.png"
+  },
+  {
+    "title": "I disappeared, but I'm back with good news.",
+    "hour": "14:52 am 03/16/2026",
+    "content": "I disappeared for a while, but I was working on some projects, playing a lot of games, and just enjoying myself a bit.",
+    "img": ""
+  },
+  {
+    "title": "Finally, the blog is here!",
+    "hour": "2:55 am 02/16/2026",
+    "content": "We have a version of the blog that I find pleasing; now we have all the pages and compatibility with mobile browsers is 100%.",
+    "img": "./img-posts/blog-img-7.png"
+  },
+  {
+    "title": "I finally bought the Juno skin.",
+    "hour": "1:44 am 02/16/2026",
+    "content": "Yesterday I bought the Hello Kitty Juno skin, I thought it was amazing. I even finished my placement matches with Juno and reached Gold 2.",
+    "img": "./img-posts/blog-img-6.png"
+  },
+  {
+    "title": "Play of the Game with the new support",
+    "hour": "16:02 pm 02/11/2026",
+    "content": "Yesterday's I played it's magnificent play, I had the new Jetpack Cat support, I really liked it, but you need to know how to position yourself very well as a support (which I already know LMAO).",
+    "img": "",
+    "video": "https://youtu.be/JETYDA-sI0c"
+  },
+  {
+    "title": "The Beautiful play with my friends",
+    "hour": "14:23 pm 02/06/2026",
+    "content": "Yesterday's play was magnificent, my friends and I were playing (Marcelo even recorded it, thank you Marcelo!). I was playing support with Wuyang and it was a fantastic play.",
+    "img": "",
+    "video": "https://youtu.be/HVKY_n_A_5Y"
+  },
+  {
+    "title": "I'm excited for the Hello Kitty skins on OW2",
+    "hour": "16:29 pm 02/05/2026",
+    "content": "I really liked the skin of Juno and Windowaker, I don't now what I will take. But the Juno skin it's soo cutee :3 I think to take the Juno skin!",
+    "img": "./img-posts/blog-img-3.webp"
+  },
+  {
+    "title": "We are in Vercel!",
+    "hour": "9:42 am 02/05/2026",
+    "content": "Officially my idea it is online on the internet :) I am very happy, and can't wait to post more things here :3",
+    "img": "./img-posts/blog-img-2.png"
+  },
+  {
+    "title": "First post here",
+    "hour": "8:16 am 02/05/2026",
+    "content": "This website is made by me, Pedro Menino. I create this website, to remember the good old blogs, i never lived then phase but i really like the idea",
+    "img": "./img-posts/blog-img.jpg"
+  }
 ]
