@@ -26,3 +26,4 @@ export { default as myblog } from "./Myblog.gif";
 export { default as lambda } from "./newlambda.gif";
 export { default as neko98 } from "./neko-b.gif";
 export { default as banner } from "./Banner.gif";
+export { default as border } from "./border.png";
