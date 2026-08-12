@@ -1,7 +1,7 @@
 import { oldTec, game, music, cd, connected, website, argLiker, musical, brazil, kittys, paws, steam, wii, lambda, neko98, resolution, github, kitty, miinormal, miihello, meinmii, myblog, banner } from '../assets';
 import { Divmain, Container, Button } from "../components"
 import Posts from "../posts/post.json"
-
+import LastFM from "../components/Lastfm"
 
 function Home() {
 
@@ -121,16 +121,8 @@ function Home() {
               </div>
             </Container>
             <Container>
-              <h3 class="text-center  text-xl">Song Most Played Tracker</h3>
-              <p class="text-xs text-gray-300/60 text-center pb-2">Last Update 07/31/2026</p>
-              <div class="relative lg:h-50 xs:h-25 w-full">
-                <img src="https://f4.bcbits.com/img/a3993658307_2.jpg" class="absolute left-1/2 top-0 -translate-x-1/2 z-20 lg:max-w-55 xs:max-w-25" />
-                <img src={cd} class="absolute lg:left-36 xs:left-43 top-4 z-10 lg:max-w-50 xs:max-w-20 animate-spin" />
-              </div>
-              <div class="pt-6">
-                <h4 class=" text-xl text-center">CLARISSA - NADA CONTRA (CIUME)(MEIAUM REMIX)</h4>
-                <p class=" text-sm text-center">MeiaUm</p>
-              </div>
+              <h3 class="text-center  text-xl">Song Played Tracker</h3>
+              <LastFM />
             </Container>
             <div class="chat_div and game_div">
               <div class="chat_div pb-2">
@@ -186,9 +178,9 @@ function Home() {
 
               </div>
             </div>
-          </section>
-        </div>
-      </Divmain>
+          </section >
+        </div >
+      </Divmain >
     </>
   )
 }
