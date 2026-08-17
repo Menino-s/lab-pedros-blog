@@ -48,8 +48,8 @@ function Home() {
                 <h2 class="text-xl">Games I've been playing!</h2>
                 <div class="flex p-4 gap-2 justify-center">
                   <div class="h-72 grid items-center content-center">
-                    <img src="./games/tboi.jpg" class="w-40 h-60" />
-                    <p class="text-md text-center">The Binding of Isaac: Rebirth</p>
+                    <img src="./games/tboi.png" class="w-40 h-60" />
+                    <p class="text-md text-center">TBOI: Rebirth</p>
                   </div>
                 </div>
               </Container>
