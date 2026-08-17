@@ -35,8 +35,8 @@ function Home() {
                     <Container>
                       <div class="h-30">
                         <h2 class="text-2xl">Status Update</h2>
-                        <p class="text-xs text-gray-300/60">Posted 08/10/2026</p>
-                        <p class="text-md p-1">obsessed with CHIIKAWA</p>
+                        <p class="text-xs text-gray-300/60">Posted 08/17/2026</p>
+                        <p class="text-md p-1">MITTEEE MITTEE</p>
                       </div>
                     </Container>
                   </div>
@@ -48,8 +48,8 @@ function Home() {
                 <h2 class="text-xl">Games I've been playing!</h2>
                 <div class="flex p-4 gap-2 justify-center">
                   <div class="h-72 grid items-center content-center">
-                    <img src="./games/cotl_wh.jpg" class="w-40 h-60" />
-                    <p class="text-md text-center">Cotl: Woolhaven</p>
+                    <img src="./games/tboi.jpg" class="w-40 h-60" />
+                    <p class="text-md text-center">The Binding of Isaac: Rebirth</p>
                   </div>
                 </div>
               </Container>
